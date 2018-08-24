@@ -1,0 +1,56 @@
+[
+ {
+    "copy-from": "modularvest",
+    "id": "modularvest",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": "MBR vest (empty)",
+    "flags": [ "STURDY", "BELTED" ]
+  },
+  {
+    "id": "modularvestceramic",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": "MBR vest (ceramic plates)",
+    "name_plural": "MBR vests (ceramic plates)",
+	"copy-from": "modularvestceramic",
+    "flags": [ "STURDY", "BELTED" ]
+  },
+  {
+    "id": "modularvesthard",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": "MBR vest (hard plates)",
+    "name_plural": "MBR vests (hard plates)",
+    "copy-from": "modularvesthard",
+    "flags": [ "STURDY", "BELTED" ]
+  },
+  {
+    "id": "modularvestkevlar",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": "MBR vest (Kevlar plates)",
+    "name_plural": "MBR vests (Kevlar plates)",
+    "copy-from": "modularvestkevlar",
+    "flags": [ "STURDY", "BELTED" ]
+  },
+  {
+    "id": "modularveststeel",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": "MBR vest (steel plating)",
+    "name_plural": "MBR vests (steel plating)",
+    "description": "A Modular Bullet Resistant Vest.  Its armor pouches have steel plates in them; this improves protection, but makes the vest much heavier and encumbering.",
+    "copy-from": "modularveststeel",
+    "flags": [ "STURDY", "BELTED" ]
+  },
+  {
+    "id": "modularvestsuper",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": "MBR vest (superalloy)",
+    "name_plural": "MBR vests (superalloy)",
+    "copy-from": "modularvestsuper",
+    "flags": [ "STURDY", "BELTED" ]
+  }
+]

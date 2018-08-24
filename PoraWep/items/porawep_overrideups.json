@@ -1,0 +1,22 @@
+[
+  {
+    "copy-from": "UPS_off",
+    "id": "UPS_off",
+    "type": "TOOL",
+    "name": "UPS",
+    "name_plural": "UPS's",
+	"extend": { 
+	  "flags": [ "UPS_MAG" ] 
+	}
+  },
+  {
+    "copy-from": "adv_UPS_off",
+    "id": "adv_UPS_off",
+    "type": "TOOL",
+    "name": "advanced UPS",
+    "name_plural": "advanced UPS's",
+	"extend": { 
+	  "flags": [ "UPS_MAG" ] 
+	}
+  }
+]

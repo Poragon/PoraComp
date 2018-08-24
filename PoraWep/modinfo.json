@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "porawep",
+    "name": "Pora's Wep Pack",
+    "authors": [ "Poragon" ],
+    "maintainers": [ "Poragon" ],
+    "description": "Adds various weapon related items",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]
