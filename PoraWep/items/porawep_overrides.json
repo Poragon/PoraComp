@@ -1,5 +1,6 @@
 [
   {
+	"//" : "MRB vest layer changes",
     "copy-from": "modularvest",
     "id": "modularvest",
     "type": "ARMOR",
@@ -54,6 +55,7 @@
     "flags": [ "STURDY", "BELTED" ]
   },
   {
+	"//" : "UPS flag add for UPS pouch",
     "copy-from": "UPS_off",
     "id": "UPS_off",
     "type": "TOOL",
@@ -70,6 +72,7 @@
     "extend": { "flags": [ "UPS_MAG" ] }
   },
   {
+	"//" : "Coilgun three round burst rebalance",
     "copy-from": "coilgun",
     "id": "coilgun",
     "type": "GUN",
