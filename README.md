@@ -5,21 +5,21 @@ Ideas, suggestions and other such mentions are more than welcome and I can be re
 
 Detailed Changelogs;
 
-Version 1.2
-5/1/2018
+Version 1.2 (5/1/2018)
 
 Rebalances
-	Buffed survivour hoods (can now be worn with helmets)
+	
+        Buffed survivour hoods (can now be worn with helmets)
 	
 	
 	
 	
-Version 1.1
-3/15/2018
+Version 1.1 (3/15/2018)
 
 New Additions
-	Added Emergency Trauma Foam
-		- Heals like pre-nerf disinfectant, along with a !painkiller effect! and the ability to stop bleeding.
+	
+        Added Emergency Trauma Foam
+	Heals like pre-nerf disinfectant, along with a !painkiller effect! and the ability to stop bleeding.
 		- No more bathing in easy to craft disinfectant to fight bullet wounds.	
 		Added recipie for item
 	Added recipie for canvas wall
@@ -31,7 +31,8 @@ New Additions
 	
 
 Rebalances
-	Nerfed healing power of disinfectant and antiseptic powder by 60%
+	
+        Nerfed healing power of disinfectant and antiseptic powder by 60%
 	Increase Stable Nutrient Cube decay time from 1 to 3 days
 	Increased batch time second factor for Synthetic Nutrient Base, Stable Nutrient Cube, and Unstable Nutrient Cube to 5 from 3 (Slower batch crafting)
 	Increased Revolver Crossbow and Pre-Load Revolver Crossbow damage, reduced dispersion
@@ -40,11 +41,11 @@ Rebalances
 
 
 
-Version 1.0
-3/14/2018
+Version 1.0 (3/14/2018)
 
-New Additions
-	Added Pre-Load Revolver Crossbow
+Content Additions
+	
+        Added Pre-Load Revolver Crossbow
 		- A crossbow that uses a magazine system to allow for fighting larger numbers at once, though has a lower base damage than normal crossbow.
 		- So long as magazine supply is maintained this weapon is basically an upgraded repeater crossbow.
 		Added recipie for item
@@ -74,10 +75,12 @@ New Additions
 		-Allows more linking of electrical systems among vehicles.
 	
 Rebalances
-	Reduced time on combat nails (fletchette) recipie
+	
+        Reduced time on combat nails (fletchette) recipie
 	(Optionals) Changed around bionic slot balance
 	Changed MRB vests to the strapped layer of clothing
 	
 Tweaks
-	Added UPS_Mag flag to UPS_off and UPS_adv_off for UPS Pouch use
+	
+        Added UPS_Mag flag to UPS_off and UPS_adv_off for UPS Pouch use
 	(Optionals) Changed tileset.json to allow for use with MshockXotto+
