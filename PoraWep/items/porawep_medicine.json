@@ -5,7 +5,7 @@
         "comestible_type" : "MED",
         "name" : "Emergency Trauma Foam",
 		"name_plural": "Emergency Trauma Foam",
-        "description" : "A can full of water-soluble ETF, or Emergency Trauma Foam. When sprayed on a wound ETF rapidly expands, stopping bleeding, acting as a local painkiller, and also disinfecting the wound. Still not as good as a porper first aid kit.",
+        "description" : "A can full of water-soluble ETF, or Emergency Trauma Foam. When sprayed on a wound ETF rapidly expands, stopping bleeding, acting as a local painkiller, and also disinfecting the wound.",
         "weight" : 135,
         "volume" : 4,
         "price" : 1500,
@@ -18,9 +18,9 @@
             "effects" : [
                 { "id" : "pkill1", "duration" : 180 }
 			],
-            "disinfectant_power" : 4,
+            "disinfectant_power" : 5,
 			"bite": 0.95,
-			"bandages_power" : 4,
+			"bandages_power" : 5,
             "bleed" : 0.9,
             "move_cost" : 250
         }
@@ -31,10 +31,10 @@
         "comestible_type" : "MED",
         "name" : "XE037 Emergency Injection",
 		"name_plural": "XE037 Emergency Injection",
-        "description" : "The latest miracle medicine stocked in hospitals pre-cataclysm, held within the scariest needle you've ever seen. Reputed to end the flesh before the eyes and punch your stomach into next week.",
+        "description" : "The cutting edge of publicly avalible medicine pre-cataclysm. Inscirbed along the case is [WARNING RAPID DOSES MAY CAUSE PAIN, NAUSEA, HUNGER, THIRST, AND DEATH]",
         "weight" : 50,
         "volume" : 1,
-        "price" : 150000,
+        "price" : 10000,
         "charges" : 5,
         "symbol" : "!",
         "color" : "light_cyan",
@@ -42,11 +42,11 @@
             "type" : "heal",
 			"activation_message" : "You slam the needle in and begin to feel the sensation of flesh crawling together...",
             "effects" : [
-                { "id" : "nausea", "duration" : 600 }
+				{ "id" : "XE037", "duration" : 75 }
 			],
-            "limb_power" : 5,
-            "head_power" : 5,
-            "torso_power" : 5,
+            "limb_power" : 20,
+            "head_power" : 20,
+            "torso_power" : 20,
             "move_cost" : 100
         }
      }

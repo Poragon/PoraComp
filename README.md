@@ -10,12 +10,15 @@ Detailed Changelogs;
 New Additions
 
 	Added XE037 Emergency Injection
-	- An immediate healing item that comes with a side of nausea
+	- An immediate healing item that punishes rapid doses
 	- Added recipie for item
+	- Added effect for item
 	
 Rebalances
 
 	Emergency Trauma Foam nerfed and updated for new system, no longer has instant healing but instead good bandage/disinfect power
+	Coilgun was given a three round burst fire
+	Removed surviour hood changes from 1.2
 	
 Tweaks
 
