@@ -5,9 +5,9 @@
         "comestible_type" : "MED",
         "name" : "Emergency Trauma Foam",
 		"name_plural": "Emergency Trauma Foam",
-        "description" : "A can full of water-soluble ETM, or Emergency Trauma Foam. When sprayed on a wound ETM rapidly expands, stopping bleeding, acting as a local painkiller, and also disinfecting the wound. Still not as good as a porper first aid kit.",
+        "description" : "A can full of water-soluble ETF, or Emergency Trauma Foam. When sprayed on a wound ETF rapidly expands, stopping bleeding, acting as a local painkiller, and also disinfecting the wound. Still not as good as a porper first aid kit.",
         "weight" : 135,
-        "volume" : 1,
+        "volume" : 4,
         "price" : 1500,
         "charges" : 4,
         "symbol" : "~",
@@ -18,12 +18,37 @@
             "effects" : [
                 { "id" : "pkill1", "duration" : 180 }
 			],
-            "limb_power" : 6,
-            "head_power" : 5,
-            "torso_power" : 9,
-            "bite" : 0.95,
-			"bleed" : 90,
+            "disinfectant_power" : 4,
+			"bite": 0.95,
+			"bandages_power" : 4,
+            "bleed" : 0.9,
             "move_cost" : 250
         }
+     },
+	 {
+        "id" : "XE037_EI",
+        "type" : "COMESTIBLE",
+        "comestible_type" : "MED",
+        "name" : "XE037 Emergency Injection",
+		"name_plural": "XE037 Emergency Injection",
+        "description" : "A cutting edge experimental concotion held within the scariest needle you've ever seen. Reputed to end the flesh before the eyes and punch your stomach into next week.",
+        "weight" : 50,
+        "volume" : 1,
+        "price" : 150000,
+        "charges" : 1,
+        "symbol" : "!",
+        "color" : "light_cyan",
+        "use_action" : {
+            "type" : "heal",
+			"activation_message" : "You slam the needle in and begin to feel the sensation of flesh crawling together...",
+            "effects" : [
+                { "id" : "nausea", "duration" : 600 }
+			],
+            "limb_power" : 5,
+            "head_power" : 5,
+            "torso_power" : 5,
+            "move_cost" : 100
+        }
      }
+	 
 ]
