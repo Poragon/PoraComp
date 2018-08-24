@@ -5,7 +5,7 @@ Ideas, suggestions and other such mentions are more than welcome and I can be re
 
 Detailed Changelogs;
 
-Version 1.2 (5/1/2018)
+# Version 1.2 (5/1/2018)
 
 Rebalances
 	
@@ -14,7 +14,7 @@ Rebalances
 	
 	
 	
-Version 1.1 (3/15/2018)
+# Version 1.1 (3/15/2018)
 
 New Additions
 	
@@ -41,7 +41,7 @@ Rebalances
 
 
 
-Version 1.0 (3/14/2018)
+# Version 1.0 (3/14/2018)
 
 Content Additions
 	
