@@ -56,7 +56,7 @@
 	  "description": "An accurate approximation of pre-cataclysm nutrient cubes. The perfect preservation still isn't quite there and while certainly better than the lard counterpart, the way this cube wriggles concerns you...",
 	  "type": "COMESTIBLE",
 	  "color": "green",
-	  "spoils_in": 72,
+	  "spoils_in": 168,
 	  "material": [],
 	  "healthy": 2,
 	  "vitamins": [
@@ -67,7 +67,7 @@
 		  [ "vitC", 6.5 ]
         ],
 	  "relative": {
-	    "fun": 7,
+	    "fun": -2,
 		"calories": 207, "//": "Starch 320 + slime scrap aka blob glob 600 - 10% for cooking losses / 4 for portions",
 		"weight": 250,
 		"quench": 20,

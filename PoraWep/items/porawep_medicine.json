@@ -9,7 +9,7 @@
         "weight" : 135,
         "volume" : 4,
         "price" : 1500,
-        "charges" : 4,
+        "charges" : 5,
         "symbol" : "~",
         "color" : "light_cyan",
         "use_action" : {
@@ -26,16 +26,16 @@
         }
      },
 	 {
-        "id" : "XE037_EI",
+        "id" : "XE037_Emergency_Injection",
         "type" : "COMESTIBLE",
         "comestible_type" : "MED",
         "name" : "XE037 Emergency Injection",
 		"name_plural": "XE037 Emergency Injection",
-        "description" : "A cutting edge experimental concotion held within the scariest needle you've ever seen. Reputed to end the flesh before the eyes and punch your stomach into next week.",
+        "description" : "The latest miracle medicine stocked in hospitals pre-cataclysm, held within the scariest needle you've ever seen. Reputed to end the flesh before the eyes and punch your stomach into next week.",
         "weight" : 50,
         "volume" : 1,
         "price" : 150000,
-        "charges" : 1,
+        "charges" : 5,
         "symbol" : "!",
         "color" : "light_cyan",
         "use_action" : {
