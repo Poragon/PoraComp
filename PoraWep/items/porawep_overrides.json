@@ -72,5 +72,12 @@
 	"extend": { 
 	  "flags": [ "UPS_MAG" ] 
 	}
+  },
+   {
+    "copy-from": "coilgun",
+    "id": "coilgun",
+    "type": "GUN",
+    "name": "Coilgun",
+    "burst" : 3
   }
 ]
