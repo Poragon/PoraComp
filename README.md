@@ -39,12 +39,14 @@ New Additions
 	
 	
 Rebalances
+	
 	Completely re-did survivor armor, with a focus on a generalist set that is not the best in the game. See new additions for detail
 	Blacklisted old survivor armor
 	Nerfed XE037 healing, included mutagen in recipie
 	Blacklisted obsolete revolver crossbow line (archery/crossbow update fixed the inate imbalance)
 	
 Removals
+	
 	Removed Nutrient Cubes (stable and unstable)
 
 	
