@@ -1,100 +1,15 @@
 [
-	{
-	  "type" : "recipe",
-	  "result": "revolver_crossbow",
-	  "category": "CC_WEAPON",
-	  "subcategory": "CSC_WEAPON_RANGED",
-	  "skill_used": "fabrication",
-	  "skills_required": [ "mechanics", 2 ],
-	  "difficulty": 4,
-	  "time": 25000,
-	  "reversible": true,
-	  "decomp_learn": 2,
-	  "autolearn": true,
-	  "qualities" : [
-		{"id":"SCREW","level":1},
-		{"id":"SCREW_FINE","level":1},
-		{"id":"SAW_W","level":1},
-		{"id":"WRENCH","level":1}
-		], 
-		"components": [
-		  [[ "2x4", 2 ]],
-		  [[ "pipe", 1 ]],
-		  [[ "scrap", 3 ]],
-		  [[ "duct_tape", 100 ],[ "superglue", 1]],
-		  [[ "spring", 6 ]],
-		  [[ "string_36", 18 ]]
-		]
-	},
-	{
-		"result": "bolt_cylinder",
-		"type": "recipe",
-		"category": "CC_WEAPON",
-		"subcategory": "CSC_WEAPON_MAGAZINES",
-		"skill_used": "fabrication",
-		"difficulty": 4,
-		"time": 30000,
-		"tools": [
-		  [ [ "surface_heat", 5, "LIST" ] ],
-		  [ [ "mold_plastic", -1 ] ]
-		],
-		"book_learn" : [[ "recipe_bows", 4 ] , [ "manual_archery", 6] , [ "book_archery", 5]],
-		"qualities": [
-		  { "id": "HAMMER", "level": 2 },
-		  { "id": "SAW_M", "level": 1 },
-		  { "id": "SCREW", "level": 1 }
-		],
-		"components": [
-		  [ [ "can_drink_unsealed", 1 ], [ "can_food_unsealed", 1 ], [ "canister_empty", 1 ] ],
-		  [ [ "spring", 8 ] ],
-		  [ [ "scrap", 2 ] ],
-		  [ [ "plastic_chunk", 1 ] ]
-		]
-	},
-	{
-	  "type" : "recipe",
-	  "result": "pre-load_revolver_crossbow",
-	  "category": "CC_WEAPON",
-	  "subcategory": "CSC_WEAPON_RANGED",
-	  "skill_used": "fabrication",
-	  "skills_required": [ "mechanics", 3 ],
-	  "difficulty": 6,
-	  "time": 35000,
-	  "reversible": false,
-	  "decomp_learn": 2,
-	  "book_learn" : [[ "recipe_bows", 4 ] , [ "manual_archery", 6] , [ "book_archery", 5]],
-	  "tools": [
-		  [ [ "surface_heat", 5, "LIST" ] ],
-		  [ [ "mold_plastic", -1 ] ]
-		],
-	  "qualities" : [
-		{"id":"SCREW","level":1},
-		{"id":"SCREW_FINE","level":1}
-		],
-		"components": [
-		  [[ "revolver_crossbow", 1 ]],
-		  [[ "scrap", 1 ]],
-		  [[ "plastic_chunk", 3 ]],
-		  [[ "wire", 1 ]]
-		]
-	},
-	{
-	  "type" : "recipe",
-	  "result" : "rapier_umbrella",
-	  "category" : "CC_WEAPON",
-	  "subcategory" : "CSC_WEAPON_PIERCING",
-	  "skill_used" : "fabrication",
-	  "difficulty" : 4,
-	  "time" : 15000,
-	  "reversible" : false,
-	  "autolearn" : true,
-	  "qualities" : [
-		{"id":"HAMMER","level":2}
-	  ],
-	  "components" : [
-		[["umbrella", 1 ]],
-		[["duct_tape", 50], ["superglue", 1]],
-		[["scrap", 1]]
-	  ]
-	}
+  {
+    "type": "recipe",
+    "result": "rapier_umbrella",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_PIERCING",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": 15000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 2 } ],
+    "components": [ [ [ "umbrella", 1 ] ], [ [ "duct_tape", 50 ], [ "superglue", 1 ] ], [ [ "scrap", 1 ] ] ]
+  }
 ]

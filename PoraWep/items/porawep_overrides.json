@@ -1,5 +1,6 @@
-[
- {
+[	
+  {
+  "//" : "MBR layer change",
     "copy-from": "modularvest",
     "id": "modularvest",
     "type": "ARMOR",
@@ -13,7 +14,7 @@
     "category": "armor",
     "name": "MBR vest (ceramic plates)",
     "name_plural": "MBR vests (ceramic plates)",
-	"copy-from": "modularvestceramic",
+    "copy-from": "modularvestceramic",
     "flags": [ "STURDY", "BELTED" ]
   },
   {
@@ -53,15 +54,14 @@
     "copy-from": "modularvestsuper",
     "flags": [ "STURDY", "BELTED" ]
   },
-   {
+  {
+  "//" : "UPS change for UPS Pouch",
     "copy-from": "UPS_off",
     "id": "UPS_off",
     "type": "TOOL",
     "name": "UPS",
     "name_plural": "UPS's",
-	"extend": { 
-	  "flags": [ "UPS_MAG" ] 
-	}
+    "extend": { "flags": [ "UPS_MAG" ] }
   },
   {
     "copy-from": "adv_UPS_off",
@@ -69,15 +69,14 @@
     "type": "TOOL",
     "name": "advanced UPS",
     "name_plural": "advanced UPS's",
-	"extend": { 
-	  "flags": [ "UPS_MAG" ] 
-	}
+    "extend": { "flags": [ "UPS_MAG" ] }
   },
-   {
+  {
+  "//" : "Coilgun 3 shot burst",
     "copy-from": "coilgun",
     "id": "coilgun",
     "type": "GUN",
     "name": "Coilgun",
-    "burst" : 3
+    "burst": 3
   }
 ]

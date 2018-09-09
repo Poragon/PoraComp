@@ -7,7 +7,7 @@
     "weight": 120,
     "volume": 2,
     "price": 5689,
-    "material": ["steel", "plastic"],
+    "material": [ "steel", "plastic" ],
     "symbol": "#",
     "color": "ltgray",
     "ammo_type": "bolt",
