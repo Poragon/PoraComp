@@ -32,6 +32,6 @@
     "book_learn": [ [ "adv_chemistry", 1 ], [ "emergency_book", 2 ] ],
     "qualities": [ { "id": "CHEM", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
-    "components": [ [ [ "slime_scrap", 10 ] ], [ [ "syringe", 1 ] ], [ [ "Synthetic_Nutrient_Base", 4 ] ] ]
+    "components": [ [ [ "slime_scrap", 10 ] ], [ [ "syringe", 1 ] ], [ [ "Synthetic_Nutrient_Base", 4 ] ], [ ["mutagen" , 1 ] ] ]
   }
 ]

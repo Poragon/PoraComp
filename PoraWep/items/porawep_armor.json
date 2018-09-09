@@ -22,7 +22,7 @@
     "name": "Pair of Survivor Gloves",
 	"description" : "The answer to the ever evolving challange of the cataclysm, survivor gear is customized for utility and versility. This particular gear set is a light pair of nomex lined cotton gloves. A touch of kevlar gives much needed toughness to the mitts.",
 	"material_thickness": 3,
-	"encumbrance" : 5,
+	"encumbrance" : 10,
 	"warmth" : 5,
 	"environmental_protection": 5,
 	"material": [ "cotton", "nomex", "kevlar" ]
@@ -37,6 +37,7 @@
 	"material_thickness": 3,
 	"warmth" : 5,
 	"environmental_protection": 5,
+	"flags": [ "VARSIZE", "WATERPROOF", "STURDY", "OUTER", "HELMET_COMPAT" ],
 	"material": [ "cotton", "nomex", "kevlar" ]
   },
   {

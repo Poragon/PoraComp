@@ -25,5 +25,18 @@
       "thirst_min": [ 0.5 ]
     },
     "scaling_mods": { "pain_min": [ 1 ], "pain_chance": [ -10 ], "vomit_chance": [ -10 ], "hunger_min": [ 2 ], "thirst_min": [ 2 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "Nausea_Medicine",
+    "name": [ "Nausea Medicine" ],
+    "desc": [ "Medicine calms your sotmach and helps prevent vomitting." ],
+	"apply_message": "You pop a pill into your mouth. Bitter.",
+	"rating": "good",
+	"int_dur_factor": 200,
+	"remove_effects" : ["nausea"],
+	"base_mods": {
+	"vomit_chance": [ -200 ]
+	}
   }
 ]

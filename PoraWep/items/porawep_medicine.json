@@ -35,14 +35,33 @@
     "price": 10000,
     "charges": 5,
     "symbol": "!",
+	"container": "syringe",
     "color": "light_cyan",
     "use_action": {
       "type": "heal",
       "activation_message": "You slam the needle in and begin to feel the sensation of flesh crawling together...",
       "effects": [ { "id": "XE037", "duration": 75 } ],
-      "limb_power": 20,
-      "head_power": 20,
-      "torso_power": 20,
+      "limb_power": 10,
+      "head_power": 10,
+      "torso_power": 10,
+      "move_cost": 100
+    }
+  },
+  {
+    "id": "Nausea_Medication",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "name": "Nausea Medication",
+    "description": "A bottle of pills meant for relieving nasuea and preventing vomitting.",
+    "weight": 50,
+    "volume": 1,
+    "price": 10000,
+    "charges": 5,
+    "symbol": "!",
+    "color": "light_cyan",
+    "use_action": {
+      "type": "consume_drug",
+      "effects": [ { "id": "Nausea_Medicine", "duration": 300 } ],
       "move_cost": 100
     }
   }

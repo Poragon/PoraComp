@@ -5,6 +5,52 @@ Ideas, suggestions and other such mentions are more than welcome and I can be re
 
 Detailed Changelogs;
 
+# Version 1.3.3 (9/9/2018)
+
+New Additions
+
+	Added BioCo Food Bar
+		- Replacement for removed nutrient cubes
+		- Overall better than nutrient cubes
+	Added Nausea Medication
+		- In testing, no spawn or recipie yet
+	Added Survivor Suit
+		- Replacement for all three survivor suits. Focused on extras (eg. storage, env. protection, fire protection) to provide okay all around protection
+		- 8 Enc 5 Bash 8 Cut 3 Acid 5 Fire 6 Env 6.25 Storage
+	Added Survivor Mask
+		- Replacement for all survior mask types.
+		- 14 Enc 12 Bash 12 Cut 8 Acid 2 Fire 16 Env (on)
+	Added Survivor Plating
+		- Strapped on protection with a focus on storage/encumbrance. Medium grade home armor solution
+		- 10 Enc 8 Bash 12 Cut 1 Acid 1 Fire 2 Env 3.75 Storage
+	Added Heavy Survivor Plating
+		- Heavy version of Survivor Plating, closest you'll get to old heavy suits
+		- 20 Enc 16 Bash 20 Cut 1 Acid 0 Fire 1 Env 2.5 Storage
+	Added Survivor Gloves
+		- Replacement for all survivor gloves
+		- 5 Enc 4 Bash 6 Cut 2 Acid 4 Fire 5 Env
+	Added Survivor Boots
+		- Replacement for all survivor boots
+		- 9 Enc 4 Bash 6 Cut 2 Acid 4 Fire 5 Env
+	Added Survivor Hood
+		- Replacement for all survivor hoods
+		- 7 Enc 4 Bash 6 Cut 2 Acid 4 Fire 5 Env
+		- Can be worn over helmets \o/
+	
+	
+Rebalances
+	Completely re-did survivor armor, with a focus on a generalist set that is not the best in the game. See new additions for detail
+	Blacklisted old survivor armor
+	Nerfed XE037 healing, included mutagen in recipie
+	Blacklisted obsolete revolver crossbow line (archery/crossbow update fixed the inate imbalance)
+	
+Removals
+	Removed Nutrient Cubes (stable and unstable)
+
+	
+	
+	
+	
 # Version 1.3 (8/24/2018)
 
 New Additions
