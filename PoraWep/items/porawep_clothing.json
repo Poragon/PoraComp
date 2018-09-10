@@ -20,6 +20,7 @@
       "holster_prompt": "Stash UPS",
       "holster_msg": "You stash your %s.",
       "max_volume": 10,
+	  "multi": 4,
       "draw_cost": 40,
       "flags": [ "UPS_MAG" ]
     },

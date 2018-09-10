@@ -26,14 +26,21 @@
     "comestible_type": "FOOD",
     "symbol": "%",
     "healthy": 2,
-    "calories": 564,
-    "//": "(Flour (3 AKA 1 flatbread worth) 120 + Synthetic Nutrient Base (4) 1008 / 2 for portions) * 0.9 for cooking losses",
+    "calories": 411,
+    "//": "(Flour 5 820 + Synthetic Nutrient Base (4) 1008 / 4 for portions) * 0.9 for cooking losses",
     "description": "A foodbar invented by BioCo. Incredibly calorically dense and long lasting, these bars were designed to fill the insatiable stomachs of those with the BioCo metabolic interexchange bionic.",
 	"container": "bag_plastic",
     "price": 500,
-    "charges": 2,
+    "charges": 4,
     "quench": -5,
     "vitamins": [ [ "calcium", 6 ], [ "iron", 7 ], [ "vitA", 8 ], [ "vitB", 6 ], [ "vitC", 5 ] ],
-    "volume": 2
+    "volume": 1
+	},
+	{
+    "type": "COMESTIBLE",
+    "id": "flour",
+    "name": "Flour",
+	"copy-from": "flour",
+	"calories": 164
 	}
 ]
