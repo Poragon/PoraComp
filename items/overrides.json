@@ -70,13 +70,5 @@
     "name": "advanced UPS",
     "name_plural": "advanced UPS's",
     "extend": { "flags": [ "UPS_MAG" ] }
-  },
-  {
-  "//" : "Coilgun 3 shot burst",
-    "copy-from": "coilgun",
-    "id": "coilgun",
-    "type": "GUN",
-    "name": "Coilgun",
-    "burst": 3
   }
 ]
