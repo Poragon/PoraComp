@@ -1,0 +1,12 @@
+[
+  { 
+    "type" : "item_group",
+    "id" : "BioCo_Software",
+    "items":[
+		{ "item": "Software_BioCo_Civilian_Designs", "prob": 7 },
+		{ "item": "Software_BioCo_Power_Storage_Designs", "prob": 5 },
+		{ "item": "Software_BioCo_Military_Designs", "prob": 3 },
+		{ "item": "Software_BioCo_Medical_Designs", "prob": 5 }
+	]
+  }
+ ]
