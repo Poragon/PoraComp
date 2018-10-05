@@ -1,0 +1,9 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "BioCo_Food_Bar",
+    "name": "BioCo Food Bar",
+	"copy-from": "BioCo_Food_Bar",
+	"freezing_point": -1000
+  }
+]
