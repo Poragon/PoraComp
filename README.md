@@ -1,5 +1,5 @@
-# PoraWep
-The PoraWep mod is a json only endeavour that aims to fix and tweak small bits of the game while keeping an intuitive progression.
+# PoraComp
+The PoraComp mod is a json only endeavour that aims to complile all my mods into one place, plus a few extra tidbits aimed at an intuitive gameplay experience. 
 Ideas, suggestions and other such mentions are more than welcome and I can be reached by email at poragonplays@gmail.com
 
 
