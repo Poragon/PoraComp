@@ -1,0 +1,8 @@
+[
+    {
+        "type" : "ammunition_type",
+        "id" : "MTR_Round",
+        "name" : "MTR Round",
+        "default" : "MTR_Round"
+    }
+]

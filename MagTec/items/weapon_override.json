@@ -1,0 +1,28 @@
+[
+  {
+    "id": "coilgun",
+    "type": "GUN",
+    "name": "coilgun",
+    "copy-from": "coilgun",
+	"burst": 5,
+	"ups_charges": 3
+  },
+  {
+    "id": "heavy_rail_rifle",
+    "type": "GUN",
+    "name": "heavy rail rifle",
+    "name_plural": "heavy rail rifles",
+	"copy-from": "heavy_rail_rifle",
+	"recoil": 12100,
+    "ups_charges": 108
+  },
+  {
+    "id": "rebar_rifle",
+    "type": "GUN",
+    "reload_noise_volume": 10,
+    "name": "ferromagnetic rail rifle",
+	"copy-from": "rebar_rifle",
+	"recoil": 5300,
+    "ups_charges": 43
+  }
+ ]
