@@ -1,0 +1,54 @@
+[
+  {
+    "id": "MagTech_Revolving_Rifle_6kJ",
+    "type": "GUN",
+    "name": "MagTech Revolving Rifle",
+    "name_plural": "MagTech Revolving Rifles",
+    "description": "A homemade handheld coilgun with a revolver mechanism, created from instructions on a MagTech pamphlet. Capable of a 6kJ mode for standard operation, and a 28kJ mode for when something needs a hold put into it. It's currently set to 6kJ mode.",
+    "looks-like": "heavy_rail_rifle",
+	"weight": 4500,
+    "volume": 10,
+    "price": 900000,
+    "to_hit": -1,
+    "bashing": 12,
+    "material": [ "steel", "plastic" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "MTR_Round",
+    "skill": "rifle",
+    "range": 40,
+    "ranged_damage": 35,
+    "dispersion": 150,
+    "durability": 7,
+    "clip_size": 8,
+    "ups_charges": 16,
+    "reload": 120,
+	"recoil": 1570,
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "sights", 1 ], [ "stock", 1 ] ],
+    "ammo_effects": [ "INCENDIARY", "TRAIL" ],
+    "flags": [ "RELOAD_ONE" ],
+	"use_action": {
+      "target": "MagTech_Revolving_Rifle_28kJ",
+      "msg": "You flip the switch to 28kJ. Something is going to have a bad day.",
+      "menu_text": "Switch to 28kJ",
+      "type": "transform"
+    }
+  },
+  {
+    "id": "MagTech_Revolving_Rifle_28kJ",
+	"type": "GUN",
+	"name": "MagTech Revolving Rifle",
+	"name_plural": "MagTech Revolving Rifles",
+	"description": "A homemade handheld coilgun with a revolver mechanism, created from instructions on a MagTech pamphlet. Capable of a 6kJ mode for standard operation, and a 28kJ mode for when something needs a hold put into it. It's currently set to 28kJ mode.",
+	"copy-from": "MagTech_Revolving_Rifle_6kJ",
+	"ups_charges": 75,
+	"ranged_damage": 75,
+	"recoil": 5300,
+	"use_action": {
+      "target": "MagTech_Revolving_Rifle_6kJ",
+      "msg": "You flip the switch to 6kJ. Something is going to have slightly less of a bad day.",
+      "menu_text": "Switch to 6kJ",
+      "type": "transform" 
+    }
+  }
+]

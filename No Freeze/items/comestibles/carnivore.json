@@ -1,0 +1,162 @@
+[
+  {
+    "abstract": "flesh",
+    "type": "COMESTIBLE",
+    "comestible_type": "FOOD",
+    "name": "meat/fish",
+	"copy-from": "flesh",
+	"freezing_point": -1000
+  },
+  {
+    "id": "fish",
+    "type": "COMESTIBLE",
+    "name": "fillet of fish",
+    "name_plural": "fillets of fish",
+    "copy-from": "fish",
+	"freezing_point": -1000
+  },
+  {
+    "id": "fish_cooked",
+    "type": "COMESTIBLE",
+    "name": "cooked fish",
+    "name_plural": "cooked fish",
+    "copy-from": "fish_cooked",
+	"freezing_point": -1000
+  },
+  {
+    "id": "hstomach",
+    "type": "COMESTIBLE",
+    "name": "human stomach",
+    "copy-from": "hstomach",
+	"freezing_point": -1000
+  },
+  {
+    "id": "hstomach_large",
+    "type": "COMESTIBLE",
+    "name": "large human stomach",
+    "copy-from": "hstomach_large",
+	"freezing_point": -1000
+  },
+  {
+    "id": "human_flesh",
+    "type": "COMESTIBLE",
+    "name": "human flesh",
+    "name_plural": "human fleshes",
+    "copy-from": "human_flesh",
+	"freezing_point": -1000
+  },
+  {
+    "id": "human_cooked",
+    "type": "COMESTIBLE",
+    "name": "cooked creep",
+    "copy-from": "human_cooked",
+	"freezing_point": -1000
+  },
+  {
+    "id": "meat",
+    "type": "COMESTIBLE",
+    "name": "chunk of meat",
+    "name_plural": "chunks of meat",
+    "copy-from": "meat",
+	"freezing_point": -1000
+  },
+  {
+    "id": "meat_cooked",
+    "type": "COMESTIBLE",
+    "name": "cooked meat",
+    "copy-from": "meat_cooked",
+	"freezing_point": -1000
+  },
+  {
+    "id": "offal",
+    "type": "COMESTIBLE",
+    "name": "raw offal",
+    "copy-from": "offal",
+	"freezing_point": -1000
+  },
+  {
+    "id": "offal_cooked",
+    "type": "COMESTIBLE",
+    "name": "cooked offal",
+    "name_plural": "cooked offal",
+    "copy-from": "offal_cooked",
+	"freezing_point": -1000
+  },
+  {
+    "id": "offal_pickled",
+    "type": "COMESTIBLE",
+    "name": "pickled offal",
+    "name_plural": "pickled offal",
+    "copy-from": "offal_pickled",
+	"freezing_point": -1000
+  },
+  {
+    "id": "offal_canned",
+    "type": "COMESTIBLE",
+    "name": "canned offal",
+    "name_plural": "canned offal",
+    "copy-from": "offal_canned",
+	"freezing_point": -1000
+  },
+  {
+    "id": "stomach",
+    "type": "COMESTIBLE",
+    "name": "stomach",
+    "copy-from": "stomach",
+	"freezing_point": -1000
+  },
+  {
+    "id": "stomach_large",
+    "type": "COMESTIBLE",
+    "name": "large stomach",
+    "copy-from": "stomach_large",
+	"freezing_point": -1000
+  },
+  {
+    "id": "jerky",
+    "type": "COMESTIBLE",
+    "name": "meat jerky",
+    "name_plural": "meat jerky",
+    "copy-from": "jerky",
+	"freezing_point": -1000
+  },
+  {
+    "id": "salted_fish",
+    "type": "COMESTIBLE",
+    "name": "salted fish",
+    "name_plural": "salted fish",
+    "copy-from": "salted_fish",
+	"freezing_point": -1000
+  },
+  {
+    "id": "jerky_human",
+    "type": "COMESTIBLE",
+    "name": "jerk jerky",
+    "name_plural": "jerk jerky",
+    "copy-from": "jerky_human",
+	"freezing_point": -1000
+  },
+  {
+    "id": "meat_smoked",
+    "type": "COMESTIBLE",
+    "name": "smoked meat",
+    "copy-from": "meat_smoked",
+	"freezing_point": -1000
+  },
+  {
+    "id": "fish_smoked",
+    "type": "COMESTIBLE",
+    "name": "smoked fish",
+    "name_plural": "smoked fish",
+    "copy-from": "fish_smoked",
+	"freezing_point": -1000
+  },
+  {
+    "id": "human_smoked",
+    "type": "COMESTIBLE",
+    "name": "smoked sucker",
+    "copy-from": "human_smoked",
+	"freezing_point": -1000
+  }
+]
+

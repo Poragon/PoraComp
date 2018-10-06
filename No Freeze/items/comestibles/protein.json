@@ -1,0 +1,64 @@
+[
+  {
+    "id" : "hflesh_drink",
+    "type" : "COMESTIBLE",
+	"name" : "soylent green drink",
+	"name_plural" : "soylent green drinks",
+    "copy-from": "hflesh_drink",
+	"freezing_point": -1000
+  },
+  {
+    "id": "hflesh_powder",
+    "type": "COMESTIBLE",
+    "name": "soylent green powder",
+    "name_plural": "servings of soylent green powder",
+    "copy-from": "hflesh_powder",
+	"freezing_point": -1000
+  },
+  {
+    "id": "hflesh_shake",
+    "type": "COMESTIBLE",
+    "name": "soylent green shake",
+    "copy-from": "hflesh_shake",
+	"freezing_point": -1000
+  },
+  {
+    "id": "hflesh_shake_fortified",
+    "type": "COMESTIBLE",
+    "name": "fortified soylent green shake",
+    "copy-from": "hflesh_shake_fortified",
+	"freezing_point": -1000
+  },
+  {
+    "id": "protein_drink",
+    "type": "COMESTIBLE",
+    "comestible_type": "DRINK",
+    "name": "protein drink",
+    "copy-from": "protein_drink",
+	"freezing_point": -1000
+  },
+  {
+    "id": "protein_powder",
+    "type": "COMESTIBLE",
+    "comestible_type": "FOOD",
+    "name": "protein powder",
+    "name_plural": "servings of protein powder",
+    "copy-from": "protein_powder",
+	"freezing_point": -1000
+  },
+  {
+    "id": "protein_shake",
+    "type": "COMESTIBLE",
+    "name": "protein shake",
+    "copy-from": "protein_shake",
+	"freezing_point": -1000
+  },
+  {
+    "id": "protein_shake_fortified",
+    "type": "COMESTIBLE",
+    "name": "fortified protein shake",
+    "copy-from": "protein_shake_fortified",
+	"freezing_point": -1000
+  }
+]
+

@@ -1,0 +1,33 @@
+[
+{
+    "id": "BioCo_Assembly_Machine_USE",
+    "type": "TOOL",
+    "name": "BioCo Assembly Machine",
+    "description": "This large mechanism is a precision assembly machine loaded with BioCo software. Capable of creating basic CBMs given the correct instructions.",
+    "weight": 250000,
+    "volume": 1200,
+    "price": 100000,
+    "to_hit": -5,
+    "bashing": 40,
+    "material": "steel",
+    "symbol": ";",
+    "color": "dark_gray",
+    "qualities": [ [ "BIOASSEMBLE", 3 ] ],
+    "flags": [ "DURABLE_MELEE" ]
+  },
+  {
+    "id": "BioCo_Assembly_Machine",
+    "type": "TOOL",
+    "name": "BioCo Assembly Machine",
+    "description": "This large mechanism is a precision assembly machine loaded with BioCo software. Capable of creating basic CBMs given the correct instructions.",
+    "weight": 250000,
+    "volume": 1200,
+    "price": 100000,
+    "to_hit": -5,
+    "bashing": 40,
+    "material": "steel",
+    "symbol": ";",
+    "color": "dark_gray",
+    "flags": [ "DURABLE_MELEE" ]
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "id": "rebar_rail",
+    "type": "AMMO",
+    "name": "rebar rail",
+    "weight": 100,
+    "damage": 0,
+    "dispersion": 150,
+	"copy-from": "rebar_rail"
+  },
+  {
+    "id": "steel_rail",
+    "copy-from": "steel_rail",
+    "type": "AMMO",
+    "name": "steel rail",
+    "weight": 100,
+    "dispersion": 0,
+    "relative": { "range": 10, "pierce": 15 },
+	"damage": 0
+  },
+  {
+    "id": "MTR_Round",
+    "type": "AMMO",
+    "category": "spare_parts",
+    "name": "MTR Round",
+	"name_plural": "MTR Rounds",
+    "description": "A small steel piece with a plastic tip shapped to resemble a sort of blunt rifle cartridge. For use in MagTech's Revolver Rifles.",
+	"//": "A MTR Round consists of a solid steel piece which is shaped similar to a rifle cartridge. Important to note these are fairly blunt. A non conductive tip reduces tumble.",
+    "weight": 20,
+    "volume": 0.5,
+    "price": 6000,
+    "material": [ "steel", "plastic" ],
+    "symbol": "=",
+    "color": "gray",
+    "count": 10,
+    "stack_size": 100,
+    "ammo_type": "MTR_Round",
+    "damage": 1,
+    "pierce": 5,
+    "dispersion": 100
+  },
+  {
+    "id": "MTR_AP_Round",
+    "type": "AMMO",
+    "category": "spare_parts",
+    "name": "MTR AP Round",
+	"name_plural": "MTR AP Rounds",
+    "description": "A small steel piece with a shapped to resemble a sort of pointy rifle cartridge. For use in MagTech's Revolver Rifles.",
+	"//": "A MTR AP Round consists of a solid steel piece which is shaped similar to a rifle cartridge. AP rounds are pointy at the projectile tip and lack the non-conductive point so they tumble much more.",
+	"copy-from": "MTR_Round",
+	"material": "steel",
+	"pierce": 20,
+	"dispersion": 350
+  }	
+]
