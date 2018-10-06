@@ -5,6 +5,40 @@ Ideas, suggestions and other such mentions are more than welcome and I can be re
 
 Detailed Changelogs;
 
+
+# Version 1.4 The refactoring (10/5/2018)
+
+New Additions
+
+	Added MagTec mod
+		- As it is too small for a seperate realese, MagTec related additions will be marked on thier own in this changelog
+	Added No Freeze mod
+		-https://github.com/Poragon/No-Freeze
+	Added BioCo mod
+		-https://github.com/Poragon/BioCo/blob/master/README.md
+		
+Rebalances
+
+	Buffed Bioco Food Bar calorie count.
+	Buffed UPS Pouch to hold 4 seperate UPS units at once
+	
+MagTec Additions
+
+	Added MagTec Revolver Rifle
+		- Craftable coilgun capable of two fire modes, one with much more punch than the other
+	Added MagTec Rifle Rounds
+		- For use with the MagTec Revolver Rifle
+	Rebalanced recoil among UPS/Projectile weapons
+		- Added recoil to heavy rail rifle, fero rail rifle, and MagTec Revolver rifle. Value is based on muzzle energy
+	Rebalanced energy use among UPS/Projectile weapons
+		- Electricity use is now consistent based on a 20% efficiency rate and a 372.6 J/UPS-charge ratio for UPS/Projectile weapons
+	Moved damage over to guns for UPS/Projectile weapons
+		- Damage and recoil values applied to the gun instead of ammo for UPS/Projectile weapons
+		
+	
+
+
+
 # Version 1.3.3 (9/9/2018)
 
 New Additions
