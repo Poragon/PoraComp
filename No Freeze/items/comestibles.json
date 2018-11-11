@@ -4042,5 +4042,12 @@
     "name": "raw wasteland sausage",
     "copy-from": "sausage_wasteland_raw",
 	"freezing_point": -1000
+  },
+  {
+    "id": "peanutbutter_imitation",
+    "type": "COMESTIBLE",
+    "name": "imitation peanutbutter",
+	"copy-from": "peanutbutter_imitation",
+	"freezing_point": -1000
   }
 ]

@@ -5,8 +5,9 @@
 	"id": "mon_zombie_scientist_death_drops",
 	"copy-from": "mon_zombie_scientist_death_drops",
 	"entries": [
-		{ "group": "BioCo_Software", "prob": 10 },
-		{ "item": "Software_BioCo_Experimental_Designs", "prob": 1}
+		{ "group": "BioCo_Software_Basic", "prob": 10 },
+		{ "group": "BioCo_Components", "prob": 10 },
+		{ "group": "BioCo_Software_Advanced", "prob": 1}
 		
 	]
 	},
@@ -16,7 +17,18 @@
     "type": "item_group",
     "subtype": "collection",
 	"entries": [
-		{ "group": "BioCo_Software", "prob": 8 }
+		{ "group": "BioCo_Software_Basic", "prob": 8 }
+	]
+	},
+	{
+    "id": "mon_BioCo_ScavBot_death_drops",
+    "type": "item_group",
+    "subtype": "collection",
+	"entries": [
+		{ "group": "BioCo_Software_Basic", "prob": 20 },
+		{ "group": "BioCo_Software_Advanced", "prob": 10 },
+		{ "group": "BioCo_Components", "prob": 50 },
+		{ "group": "science", "prob": 100 }
 	]
 	}
 ]

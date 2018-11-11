@@ -6,6 +6,66 @@ Ideas, suggestions and other such mentions are more than welcome and I can be re
 Detailed Changelogs;
 
 
+# Version 1.5 Corprate Take-Over (11/10/2018)
+# !Expected Error! Upon first load after updating "Synthetic Base" recipie will pop an error. After a save and exist issue with be resolved.
+
+All Around Additions
+
+	Tileset for most the items/monsters. Wooh!
+
+No-Freeze Additions
+
+	Added imitation peanutbutter to no freeze list
+	
+PoraComp Additions
+
+	Moved medicines/foods, related recipies, and related effects to BioCo
+		- More appropriate section for them lore and content wise
+	Added in currently not-implimented dual pistols
+		- Damn magazines
+	Added umbrella sprite for rapier umbrella
+	Buffed holo cloak by making it repairable
+		- Mainly so you can wear it in style
+	Properly moved obsolete items to obsolete folder
+	
+BioCo Additions (Whoo Boy)
+
+	Added BioCo AutoDoc item
+		- Can be set up into an autodoc
+	Added BioCo AutoDoc Couch item
+		- Can be set up into couch for an autodoc
+	Added BioCo Chemical Engine
+		- Can create various medicines/foods/chemicals
+	Added medicines/foods from PoraComp
+		- XE037 injection was nerfed, BioCo Food bar recipie changed
+	Added BioCo Food Slurry
+		- For all those out there who want to live off a hydration pack. About as healthy as it sounds.
+	Added BioCo Chemical Reference Book
+		- Base level book for Chemical Engine creations
+	Added Pristine Bionic Components
+		- Bunch of tech needed to justify bionic existance. Handy in some electronics too.
+	Added BioCo Chemical Precursor
+		- Base resource for chemical engine. Comes in crude, plain, and fine qualities.
+	Added BioCo ScavBot
+		- Neutral until threatened, lurks around places which are interesting to the BioCo remnents. Loot pinata as well!
+	Added BioCo Medical Chemical Designs software
+		- Used by Chemical Engine for stuff a survivour could not create, similar to Bionic softwares
+	Added a *bazillion* recipies for base game bionics
+	Changed many item names, no item IDs
+
+Added MutEx
+
+MutEx Additions
+
+	Really should be part of BioCo, but kept seperate to be optional.
+	Added Twisted Brute
+		Brute, but with minor displacement abilities and a nasty pain filled slap.
+	Added Twisted Hollow
+		Hollow, but watched too many samurai movies and fights like a swordsman. With a poisoned sword-tentacle.
+	Added Twisted Hulk
+		Hulk, but without eyes and with good ears. Also has a nasty-er pain filled slap and a terrifying piercing attack.
+
+
 # Version 1.4 The refactoring (10/5/2018)
 
 New Additions
@@ -36,9 +96,6 @@ MagTec Additions
 		- Damage and recoil values applied to the gun instead of ammo for UPS/Projectile weapons
 		
 	
-
-
-
 # Version 1.3.3 (9/9/2018)
 
 New Additions
@@ -83,9 +140,6 @@ Removals
 	
 	Removed Nutrient Cubes (stable and unstable)
 
-	
-	
-	
 	
 # Version 1.3 (8/24/2018)
 

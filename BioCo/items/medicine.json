@@ -35,15 +35,14 @@
     "price": 10000,
     "charges": 5,
     "symbol": "!",
-	"container": "syringe",
     "color": "light_cyan",
     "use_action": {
       "type": "heal",
       "activation_message": "You slam the needle in and begin to feel the sensation of flesh crawling together...",
-      "effects": [ { "id": "XE037", "duration": 75 } ],
-      "limb_power": 10,
-      "head_power": 10,
-      "torso_power": 10,
+      "effects": [ { "id": "XE037", "duration": 450 } ],
+	  "limb_power": 10,
+	  "torso_power": 10,
+	  "head_power": 10,
       "move_cost": 100
     }
   },
