@@ -9,6 +9,9 @@ Detailed Changelogs;
 # Version 1.5 Corporate Take-Over (11/10/2018)
 # !Expected Error! Upon first load after updating Synthetic Base recipie will pop an error. After a save and exit issue with be resolved.
 
+![1.5 Content](https://i.imgur.com/lIiheMr.png)
+
+
 All Around Additions
 
 	Tileset for most the items/monsters. Wooh!
