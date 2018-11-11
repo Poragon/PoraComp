@@ -9,6 +9,7 @@
     "price": 275000,
     "material": [ "steel", "wood" ],
     "flags": [ "STR_RELOAD", "RELOAD_ONE", "FIRE_TWOHAND", "PRIMITIVE_RANGED_WEAPON" ],
+    "skill": "rifle",
     "ammo": "bolt",
     "min_strength": 6,
     "weight": 4092,
