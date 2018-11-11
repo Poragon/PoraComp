@@ -7,7 +7,7 @@ Detailed Changelogs;
 
 
 # Version 1.5 Corprate Take-Over (11/10/2018)
-# !Expected Error! Upon first load after updating Synthetic Base recipie will pop an error. After a save and exist issue with be resolved.
+# !Expected Error! Upon first load after updating Synthetic Base recipie will pop an error. After a save and exit issue with be resolved.
 
 All Around Additions
 
