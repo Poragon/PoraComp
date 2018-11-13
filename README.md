@@ -6,11 +6,20 @@ Ideas, suggestions and other such mentions are more than welcome and I can be re
 Detailed Changelogs;
 
 
-# Version 1.5 Corporate Take-Over (11/10/2018)
-# !Expected Error! Upon first load after updating Synthetic Base recipie will pop an error. After a save and exit issue with be resolved.
+# Version 1.5.1
 
-![1.5 Content](https://i.imgur.com/lIiheMr.png)
+No Freeze Additions
 
+	Fixed egg_bird copy-from
+	
+BioCo Additions
+
+	Moved MagTec content to BioCo
+	Added fire extinguisher bionic
+
+
+# Version 1.5 Corprate Take-Over (11/10/2018)
+# !Expected Error! Upon first load after updating "Synthetic Base" recipie will pop an error. After a save and exist issue with be resolved.
 
 All Around Additions
 

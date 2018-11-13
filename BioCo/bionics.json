@@ -1,0 +1,12 @@
+[
+ {
+    "id": "bio_Fire_Extinguisher",
+    "type": "bionic",
+    "name": "Fire Extinguisher",
+    "description": "A small, retractable tube resides in the palm of your hand through your arm. When extended you can spray out accumulated carbondioxide, effectively making a functional fire extinguisher.",
+    "occupied_bodyparts": [ [ "ARM_R", 5 ], [ "HAND_R", 2 ] ],
+    "act_cost": 100,
+    "fake_item": "bio_Fire_Extinguisher_USE",
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON" ]
+  }
+]

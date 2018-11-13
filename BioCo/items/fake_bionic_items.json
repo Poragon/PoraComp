@@ -1,0 +1,18 @@
+[
+ {
+    "id": "bio_Fire_Extinguisher_USE",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": "Bionic Fire Extinguisher",
+    "description": "Testing",
+    "weight": 150,
+    "volume": 1,
+    "price": 14000,
+    "to_hit": -3,
+    "bashing": 10,
+    "material": [ "plastic", "aluminum" ],
+    "symbol": ":",
+    "color": "yellow",
+    "use_action": "EXTINGUISHER"
+  }
+ ]
