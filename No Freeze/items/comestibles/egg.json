@@ -4,7 +4,7 @@
     "id": "egg_bird",
 	"name": "bird egg",
 	"description": "Nutritious egg laid by a bird.",
-    "copy-from": "flesh",
+    "copy-from": "egg_bird",
 	"freezing_point": -1000
   },
   {
