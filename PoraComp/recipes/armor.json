@@ -183,5 +183,35 @@
       [ [ "duct_tape", 300 ] ],
       [ [ "modularvest", 1 ], [ "kevlar_plate", 24 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "Insulated_Canteen",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_CONTAINERS",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": 10000,
+    "autolearn": true,
+    "components": [ 
+		[ [ "canteen", 1 ] ],
+		[ [ "duct_tape", 100 ] ],
+		[ [ "Cellulose", 1 ] ]
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "Insulated_2L_Canteen",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_CONTAINERS",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": 10000,
+    "autolearn": true,
+    "components": [ 
+		[ [ "2lcanteen", 1 ] ],
+		[ [ "duct_tape", 200 ] ],
+		[ [ "Cellulose", 2 ] ]
+	]
   }
 ]

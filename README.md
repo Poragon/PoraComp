@@ -6,6 +6,16 @@ Ideas, suggestions and other such mentions are more than welcome and I can be re
 Detailed Changelogs;
 
 
+#Version 1.5.2
+
+Poracomp Additions
+
+	Added cellulose
+		-Insulating material obtainable fairly easily in cataclysm
+	Added insulated canteen
+	Added insulated 2.5L canteen
+
+
 # Version 1.5.1
 
 No Freeze Additions
