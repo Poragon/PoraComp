@@ -6,7 +6,7 @@ Ideas, suggestions and other such mentions are more than welcome and I can be re
 Detailed Changelogs;
 
 
-#Version 1.5.2
+# Version 1.5.2
 
 Poracomp Additions
 
