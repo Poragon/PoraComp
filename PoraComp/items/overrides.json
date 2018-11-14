@@ -6,7 +6,12 @@
     "type": "ARMOR",
     "category": "armor",
     "name": "MBR vest (empty)",
-    "flags": [ "STURDY", "BELTED" ]
+    "extend": {
+	    "flags": [ "BELTED" ],
+	    "use_action": {
+	        "flags": [ "MAG_BULKY" ]
+	    }
+    }
   },
   {
     "id": "modularvestceramic",
@@ -15,7 +20,12 @@
     "name": "MBR vest (ceramic plates)",
     "name_plural": "MBR vests (ceramic plates)",
     "copy-from": "modularvestceramic",
-    "flags": [ "STURDY", "BELTED" ]
+    "extend": {
+	    "flags": [ "BELTED" ],
+	    "use_action": {
+	        "flags": [ "MAG_BULKY" ]
+	    }
+    }
   },
   {
     "id": "modularvesthard",
@@ -24,7 +34,12 @@
     "name": "MBR vest (hard plates)",
     "name_plural": "MBR vests (hard plates)",
     "copy-from": "modularvesthard",
-    "flags": [ "STURDY", "BELTED" ]
+    "extend": {
+	    "flags": [ "BELTED" ],
+	    "use_action": {
+	        "flags": [ "MAG_BULKY" ]
+	    }
+    }
   },
   {
     "id": "modularvestkevlar",
@@ -33,7 +48,12 @@
     "name": "MBR vest (Kevlar plates)",
     "name_plural": "MBR vests (Kevlar plates)",
     "copy-from": "modularvestkevlar",
-    "flags": [ "STURDY", "BELTED" ]
+    "extend": {
+	    "flags": [ "BELTED" ],
+	    "use_action": {
+	        "flags": [ "MAG_BULKY" ]
+	    }
+    }
   },
   {
     "id": "modularveststeel",
@@ -43,7 +63,12 @@
     "name_plural": "MBR vests (steel plating)",
     "description": "A Modular Bullet Resistant Vest.  Its armor pouches have steel plates in them; this improves protection, but makes the vest much heavier and encumbering.",
     "copy-from": "modularveststeel",
-    "flags": [ "STURDY", "BELTED" ]
+    "extend": {
+	    "flags": [ "BELTED" ],
+	    "use_action": {
+	        "flags": [ "MAG_BULKY" ]
+	    }
+    }
   },
   {
     "id": "modularvestsuper",
@@ -52,7 +77,12 @@
     "name": "MBR vest (superalloy)",
     "name_plural": "MBR vests (superalloy)",
     "copy-from": "modularvestsuper",
-    "flags": [ "STURDY", "BELTED" ]
+    "extend": {
+	    "flags": [ "BELTED" ],
+	    "use_action": {
+	        "flags": [ "MAG_BULKY" ]
+	    }
+    }
   },
   {
   "//" : "UPS change for UPS Pouch",
