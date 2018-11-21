@@ -38,6 +38,11 @@
             "id": "mon_MutEx_zombie_hulk",
             "fg": 100,
 			"bg": 0
+            },
+			{
+            "id": "mon_MutEx_zombie_beserker",
+            "fg": 101,
+			"bg": 0
             }
         ]
 		},

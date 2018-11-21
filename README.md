@@ -6,6 +6,16 @@ Ideas, suggestions and other such mentions are more than welcome and I can be re
 Detailed Changelogs;
 
 
+# Version 1.5.3
+
+Total Changes
+
+	Added in LUA directory and files
+	
+MutEx Changes
+
+	Added Beserker (no spawns yet)
+
 # Version 1.5.2
 
 Poracomp Additions

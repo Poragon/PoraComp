@@ -12,5 +12,12 @@
 			"pain_min": [2],
 			"pain_max": [2]
 		}
+	},
+	{
+		"type": "effect_type",
+		"id": "beserker_rage",
+		"base_mods": {
+			"speed_mod": [100]
+		}
 	}
 ]
