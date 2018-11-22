@@ -16,6 +16,10 @@ MutEx Changes
 
 	Added Beserker (no spawns yet)
 
+No Freeze Changes
+
+	Fix for new vacucum food changes
+
 # Version 1.5.2
 
 Poracomp Additions
