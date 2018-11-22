@@ -596,10 +596,10 @@
   },
   {
     "type": "COMESTIBLE",
-    "id": "fish_vac",
+    "id": "salted_fish",
     "name": "salted fish slices",
     "name_plural": "salted fish slices",
-    "copy-from": "fish_vac",
+    "copy-from": "salted_fish",
 	"freezing_point": -1000
   },
   {
@@ -2429,23 +2429,23 @@
   },
   {
     "type": "COMESTIBLE",
-    "id": "meat_vac",
+    "id": "meat_salted",
     "name": "salted meat slice",
-	"copy-from": "meat_vac",
+	"copy-from": "meat_salted",
 	"freezing_point": -1000
   },
   {
     "type": "COMESTIBLE",
-    "id": "veggy_vac",
+    "id": "veggy_salted",
     "name": "salted veggy chunk",
-	"copy-from": "veggy_vac",
+	"copy-from": "veggy_salted",
 	"freezing_point": -1000
   },
   {
     "type": "COMESTIBLE",
-    "id": "apple_vac",
+    "id": "apple_sugar",
     "name": "fruit slice",
-	"copy-from": "apple_vac",
+	"copy-from": "apple_sugar",
 	"freezing_point": -1000
   },
   {
@@ -3566,9 +3566,9 @@
   },
    {
     "type": "COMESTIBLE",
-    "id": "hflesh_vac",
+    "id": "hflesh_salted",
     "name": "salted simpleton slices",
-    "copy-from": "hflesh_vac",
+    "copy-from": "hflesh_salted",
 	"freezing_point": -1000
   },
   {
