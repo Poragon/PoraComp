@@ -41,7 +41,7 @@ A: They very much are intended too! Some of them can be blatantly unfair at poin
 Q: The beserker won't take any damage!
 
 A: The beserker has a cut armor value of *150* at full health. Bash is lower, but also pretty high. As the beserkers' health goes down its armor will too,
-so chip away at it with a non bash/cut/pierce damage first (eg. fire) to get it within killing range. Also be careful of its screams.
+so chip away at it with a non bash/cut/pierce damage first (eg. fire) to get it within killing range. Also be when its roars.
 
 Q: Zombie's suddenly are moving faster/I'm moving slower/Everything is screwed
 
