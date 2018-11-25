@@ -2332,41 +2332,6 @@
   },
   {
     "type": "COMESTIBLE",
-    "id": "mre_beef",
-    "name": "irradiated beef course",
-	"copy-from": "mre_beef",
-	"freezing_point": -1000
-  },
-  {
-    "type": "COMESTIBLE",
-    "id": "mre_veggy",
-    "name": "irradiated vegetarian course",
-	"copy-from": "mre_veggy",
-	"freezing_point": -1000
-  },
-  {
-    "type": "COMESTIBLE",
-    "id": "mre_chicken",
-    "name": "irradiated chicken course",
-	"copy-from": "mre_chicken",
-	"freezing_point": -1000
-  },
-  {
-    "type": "COMESTIBLE",
-    "id": "mre_hotdogs",
-    "name": "irradiated hot dog course",
-	"copy-from": "mre_hotdogs",
-	"freezing_point": -1000
-  },
-  {
-    "type": "COMESTIBLE",
-    "id": "mre_ravioli",
-    "name": "irradiated ravioli course",
-	"copy-from": "mre_ravioli",
-	"freezing_point": -1000
-  },
-  {
-    "type": "COMESTIBLE",
     "id": "tea_raw",
     "name": "tea leaf",
     "name_plural": "tea leaves",
