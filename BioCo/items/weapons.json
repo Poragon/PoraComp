@@ -1,10 +1,11 @@
 [
   {
     "id": "MagTech_Revolving_Rifle_6kJ",
+	"//": "Changing ID is a big no-no, so these MagTec Rfiles are a headache to work with now",
     "type": "GUN",
     "name": "MagTech Revolving Rifle",
     "name_plural": "MagTech Revolving Rifles",
-    "description": "A homemade handheld coilgun with a revolver mechanism, created from instructions on a MagTech pamphlet. Capable of a 6kJ mode for standard operation, and a 28kJ mode for when something needs a hold put into it. It's currently set to 6kJ mode.",
+    "description": "A handheld coilgun with a revolver mechanism. Capable of a 10kJ mode for standard operation, and a 20kJ mode for when something needs a hold put into it. It's currently set to 10kJ mode.",
     "looks-like": "heavy_rail_rifle",
 	"weight": 4500,
     "volume": 10,
@@ -17,20 +18,20 @@
     "ammo": "MTR_Round",
     "skill": "rifle",
     "range": 40,
-    "ranged_damage": 35,
+    "ranged_damage": 40,
     "dispersion": 150,
     "durability": 7,
     "clip_size": 8,
-    "ups_charges": 16,
+    "ups_charges": 10,
     "reload": 120,
 	"recoil": 1570,
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "sights", 1 ], [ "stock", 1 ] ],
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ],
     "ammo_effects": [ "INCENDIARY", "TRAIL" ],
     "flags": [ "RELOAD_ONE" ],
 	"use_action": {
       "target": "MagTech_Revolving_Rifle_28kJ",
-      "msg": "You flip the switch to 28kJ. Something is going to have a bad day.",
-      "menu_text": "Switch to 28kJ",
+      "msg": "You flip the switch to 20kJ. Something is going to have a bad day.",
+      "menu_text": "Switch to 20kJ",
       "type": "transform"
     }
   },
@@ -39,15 +40,15 @@
 	"type": "GUN",
 	"name": "MagTech Revolving Rifle",
 	"name_plural": "MagTech Revolving Rifles",
-	"description": "A homemade handheld coilgun with a revolver mechanism, created from instructions on a MagTech pamphlet. Capable of a 6kJ mode for standard operation, and a 28kJ mode for when something needs a hold put into it. It's currently set to 28kJ mode.",
+	"description": "A handheld coilgun with a revolver mechanism. Capable of a 10kJ mode for standard operation, and a 20kJ mode for when something needs a hold put into it. It's currently set to 20kJ mode.",
 	"copy-from": "MagTech_Revolving_Rifle_6kJ",
-	"ups_charges": 75,
-	"ranged_damage": 75,
+	"ups_charges": 20,
+	"ranged_damage": 57,
 	"recoil": 5300,
 	"use_action": {
       "target": "MagTech_Revolving_Rifle_6kJ",
-      "msg": "You flip the switch to 6kJ. Something is going to have slightly less of a bad day.",
-      "menu_text": "Switch to 6kJ",
+      "msg": "You flip the switch to 10kJ. Something is going to have slightly less of a bad day.",
+      "menu_text": "Switch to 10kJ",
       "type": "transform" 
     }
   }

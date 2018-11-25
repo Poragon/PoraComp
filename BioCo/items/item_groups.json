@@ -17,7 +17,8 @@
 	"subtype": "collection",
     "items":[
 		{ "item": "Software_BioCo_Experimental_Designs", "prob": 1 },
-		{ "item": "Software_BioCo_AutoDoc_Designs", "prob": 5 }
+		{ "item": "Software_BioCo_AutoDoc_Designs", "prob": 5 },
+		{ "item": "Software_BioCo_Weaponry_Designs", "prob": 5 }
 	]
   },
   { 

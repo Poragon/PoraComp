@@ -35,7 +35,7 @@
     "count": 10,
     "stack_size": 100,
     "ammo_type": "MTR_Round",
-    "damage": 1,
+    "damage": 9,
     "pierce": 5,
     "dispersion": 100
   },
@@ -49,6 +49,7 @@
 	"//": "A MTR AP Round consists of a solid steel piece which is shaped similar to a rifle cartridge. AP rounds are pointy at the projectile tip and lack the non-conductive point so they tumble much more.",
 	"copy-from": "MTR_Round",
 	"material": "steel",
+	"damage": 1,
 	"pierce": 20,
 	"dispersion": 350
   }	

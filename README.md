@@ -6,6 +6,26 @@ Ideas, suggestions and other such mentions are more than welcome and I can be re
 Detailed Changelogs;
 
 
+# Version 1.5.5
+
+Total Changes
+
+	More LUA stuffs
+		- Added the beginngs of a new friend
+	
+MutEx Changes
+
+	Added PA-037 Zygote Kit
+	Re-added update attack on monsters for performance reasons
+	
+BioCo Changes
+
+	Re-balanced MagTec Revolver Rifle recipie, ammo and stats
+		- Moved in line with ranged weapon DMG curve
+	Added common weaponry software
+		- Added into item groups
+
+
 # Version 1.5.4
 
 Total Changes

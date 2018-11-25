@@ -5,14 +5,23 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "electronics",
-    "skills_required": [ "gun", 3 ],
+    "skills_required": [ "computer", 5 ],
     "difficulty": 6,
     "time": 400000,
     "reversible": true,
     "book_learn": [ [ "advanced_electronics", 3 ], [ "textbook_electronics", 3 ], [ "textbook_anarch", 4 ] ],
-    "qualities": [ { "id": "SAW_M_FINE", "level": 1 } ],
-    "tools": [ [ [ "soldering_standard", 10, "LIST" ], [ "small_repairkit", 10 ], [ "large_repairkit", 5 ] ], [ [ "mold_plastic", -1 ] ] ],
-	"//": "Burnt bionics should contain the unholy conductors needed to justify the existance of 80% of CDDAs tech",
-    "components": [ [ [ "pipe", 1 ] ], [ [ "power_supply", 1 ] ], [ [ "amplifier", 6 ] ], [ [ "scrap", 6 ] ], [ [ "cable", 200 ] ], [ [ "plastic_chunk", 5 ] ], [ [ "burnt_out_bionic", 2 ] ], [ [ "e_scrap", 10 ] ] ]
+    "qualities": [ { "id": "BIOASSEMBLE", "level": 3 } ],
+    "tools": [ [ [ "Software_BioCo_Weaponry_Designs", -1 ] ] ],
+    "//": "Burnt bionics should contain the unholy conductors needed to justify the existance of 80% of CDDAs tech",
+    "components": [
+      [ [ "pipe", 1 ] ],
+      [ [ "power_supply", 1 ] ],
+      [ [ "amplifier", 6 ] ],
+      [ [ "scrap", 6 ] ],
+      [ [ "cable", 200 ] ],
+      [ [ "plastic_chunk", 5 ] ],
+      [ [ "Pristine_Bionic_Components", 2 ] ],
+      [ [ "e_scrap", 10 ] ]
+    ]
   }
- ]
+]

@@ -48,6 +48,14 @@
         "price": 3000
     },
 	{
+        "id": "Software_BioCo_Weaponry_Designs",
+        "copy-from": "software",
+        "type":"GENERIC",
+        "name": "BioCo Weaponry Designs",
+        "description": "A set of comprehensive blueprints loaded onto a USB which detail more common weaponry created by MagTec, a division of BioCo. While gibberish to you, one of BioCo's assembly machines could read this.",
+        "price": 3000
+    },
+	{
         "id": "Software_BioCo_Power_Storage_Designs",
         "copy-from": "software",
         "type":"GENERIC",

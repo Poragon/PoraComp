@@ -36,5 +36,11 @@ function echo_random_attack(monster)
 	end
 end
 
+function update_attack(monster)
+	monster_update_tick(monsters_around())
+	parasite_sense_danger(monsters_around())
+end
+
 game.register_monattack("BESERK_CHARGE", beserk_charge_attack)
 game.register_monattack("ECHO_RANDOM", echo_random_attack)
+game.register_monattack("UPDATE", update_attack)
