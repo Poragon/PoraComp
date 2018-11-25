@@ -6,7 +6,7 @@ local MOD = {
   version = "2018-11-25"
 }
 mods[MOD.id] = MOD
-DEBUG = true
+DEBUG = false
 
 MOD.on_turn_passed = function()
 	monster_update_tick(monsters_around())
