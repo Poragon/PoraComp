@@ -24,6 +24,11 @@
             "id": "mon_BioCo_ScavBot",
             "fg": 3,
 			"bg": 0
+            },
+			{
+            "id": "mon_MutEx_zombie_echo",
+            "fg": 4,
+			"bg": 0
             }
         ]
         },

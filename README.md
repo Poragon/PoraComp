@@ -6,6 +6,24 @@ Ideas, suggestions and other such mentions are more than welcome and I can be re
 Detailed Changelogs;
 
 
+# Version 1.5.4
+
+Total Changes
+
+	Updated Tilset
+
+MutEx Changes
+
+	Added Echo zombie
+		-Added echo attacks
+	Added dead parasite
+	Updated monster groups with echo and beserker
+	
+BioCo Changes
+
+	Fixed BioCo Food Slurry
+
+
 # Version 1.5.3
 
 Total Changes

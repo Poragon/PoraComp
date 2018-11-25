@@ -1,0 +1,16 @@
+[
+{
+    "type" : "COMESTIBLE",
+    "id" : "MutEx_Dead_Parasite",
+	"copy-from": "flesh",
+    "name" : "Dead Parasite",
+    "name_plural" : "Dead Parasites",
+    "weight" : 100,
+    "color" : "white",
+    "symbol" : "~",
+    "description" : "The remains of a desceased creature, pulled from a MutEx creature. The creature seems to rapidly decay before you...",
+    "price" : 700000, 
+    "volume" : 1,
+	"flags": [ "MutEx_Important" ]
+}
+]

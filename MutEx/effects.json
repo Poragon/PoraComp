@@ -19,5 +19,41 @@
 		"base_mods": {
 			"speed_mod": [100]
 		}
+	},
+	{
+		"type": "effect_type",
+		"id": "speed_distortion_terrible",
+		"name": ["Distortion"],
+		"desc": ["Local time and space bend as dimensions draw closer!"],
+		"base_mods": {
+			"speed_mod": [-50]
+		}
+	},
+	{
+		"type": "effect_type",
+		"id": "speed_distortion_bad",
+		"name": ["Distortion"],
+		"desc": ["Local time and space bend as dimensions draw closer!"],
+		"base_mods": {
+			"speed_mod": [-25]
+		}
+	},
+	{
+		"type": "effect_type",
+		"id": "speed_distortion_good",
+		"name": ["Distortion"],
+		"desc": ["Local time and space bend as dimensions draw closer!"],
+		"base_mods": {
+			"speed_mod": [25]
+		}
+	},
+	{
+		"type": "effect_type",
+		"id": "speed_distortion_great",
+		"name": ["Distortion"],
+		"desc": ["Local time and space bend as dimensions draw closer!"],
+		"base_mods": {
+			"speed_mod": [50]
+		}
 	}
 ]

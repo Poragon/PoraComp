@@ -5,7 +5,7 @@ function creature_distance_from_player(Creature)
 	return distance_to_player
 end
 
-function monster_update()
+function monsters_around()
 	local center = player:pos()
 	for off = 1, 60 do
 		for x = -off, off do
@@ -15,7 +15,7 @@ function monster_update()
 					local point = tripoint(center.x + x, center.y + y, center.z + z)
 					local monster = g:critter_at(point)
 						if monster then
-							mon_update_tick(monster)
+							return monster
 						end
 				end
 			end
@@ -23,7 +23,10 @@ function monster_update()
 	end
 end
 
-function mon_update_tick(monster)
+function monster_update_tick(monster)
+	if DEBUG == true then 
+		game.add_msg("Update called for: "..monster:get_name()) 
+	end
 	if monster:get_name() == "Beserker" then
 		local monhp = monster:get_hp()
 		local monhpmax = monster:get_hp_max()
@@ -33,4 +36,40 @@ function mon_update_tick(monster)
 		monster:set_armor_bash_bonus(beserker_armor_bash * hp_armor_multiplier)
 		monster:set_armor_cut_bonus(beserker_armor_cut * hp_armor_multiplier)
 	end
+end
+
+function monster_heal_1of10(monster)
+	local ran = 2
+	if ran == 2 then
+		local monhpmax = monster:get_hp_max() 
+		local monhp = monster:get_hp()
+		local monhp_mod = monhpmax * 0.2
+		if monhp + monhp_mod < monhpmax then
+			monster:set_hp( monhp + monhp_mod )
+		end
+	end
+end
+
+function speed_distortion(Creature)
+	local ran = math.random(5)
+	local dur = math.random(10,20)
+	local dur_turns = TURNS(dur)
+	if ran == 1 then
+		Creature:add_effect(efftype_id("speed_distortion_terrible"), dur_turns)
+	elseif ran == 2 then
+		Creature:add_effect(efftype_id("speed_distortion_bad"), dur_turns)
+	elseif ran == 3 then
+		return
+	elseif ran == 4 then
+		Creature:add_effect(efftype_id("speed_distortion_good"), dur_turns)
+	elseif ran == 5 then
+		Creature:add_effect(efftype_id("speed_distortion_great"), dur_turns)
+	end
+end
+
+function monster_attention(monster)
+	local point_base = player:pos()
+	local offset = math.random(4) - math.random(7)
+	local point = tripoint(point_base.x + offset, point_base.y + offset, point_base.z)
+	monster:set_dest(point)
 end
