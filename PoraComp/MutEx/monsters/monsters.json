@@ -23,7 +23,7 @@
     "armor_bash": 10,
     "armor_cut": 20,
     "vision_night": 5,
-    "special_attacks": [ [ "SMASH", 30 ], [ "GRAB", 10 ], [ "RANGED_PULL", 10 ], ["twisted_brute_swipe", 10] ],
+    "special_attacks": [ [ "SMASH", 40 ], [ "GRAB", 10 ], [ "RANGED_PULL", 10 ], ["twisted_brute_swipe", 10] ],
     "death_function": [ "NORMAL" ],
     "flags": [
       "SEES",

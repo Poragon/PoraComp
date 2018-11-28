@@ -114,5 +114,15 @@
 	"warmth": 0,
 	"environmental_protection": 6,
 	"flags": [ "OVERSIZE", "HOOD", "WATERPROOF", "OUTER", "VARSIZE" ]
+  },
+  {
+    "id": "mop",
+    "type": "TOOL",
+    "name": "mop",
+    "copy-from": "mop",
+    "//use_action_original": [ "MOP" ],
+    "//use_action_version1": [ "IUSE_MOP_SPILLED_LIQUID_V1" ],
+    "//use_action_version2": [ "IUSE_MOP_SPILLED_LIQUID_V2" ],
+    "use_action": [ "MOP", "IUSE_MOP_SPILLED_LIQUID_V1" ]
   }
 ]

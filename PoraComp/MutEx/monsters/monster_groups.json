@@ -12,7 +12,7 @@
     "type":"monstergroup",
     "name" : "GROUP_ZOMBIE_MID",
 	"monsters" : [
-		{ "monster" : "mon_MutEx_zombie_brute", "freq" : 15, "cost_multiplier": 20, "pack_size": [2,5] },
+		{ "monster" : "mon_MutEx_zombie_brute", "freq" : 15, "cost_multiplier": 20, "pack_size": [2,3] },
 		{ "monster" : "mon_MutEx_zombie_hollow", "freq" : 10, "cost_multiplier": 20, "pack_size": [2,3] },
 		{ "monster" : "mon_MutEx_zombie_hulk", "freq" : 3, "cost_multiplier": 20 },
 		{ "monster" : "mon_MutEx_zombie_echo", "freq" : 1, "cost_multiplier": 50 },
