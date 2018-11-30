@@ -1,0 +1,12 @@
+[
+  {
+    "id": "IUSE_MOP_SPILLED_LIQUID_V1",
+    "type": "item_action",
+    "name": "Pickup spilled liquids (Menu selection)"
+  },
+  {
+    "id": "IUSE_MOP_SPILLED_LIQUID_V2",
+    "type": "item_action",
+    "name": "Pickup spilled liquids (Adjacent direction)"
+  }
+]
