@@ -1,8 +1,8 @@
-require("./data/mods/PoraComp/LUA/monster_attacks")
-require("./data/mods/PoraComp/LUA/functions")
-require("./data/mods/PoraComp/LUA/iuse_actions")
-require("./data/mods/PoraComp/LUA/coroutines")
-require("./data/mods/PoraComp/LUA/mop_actions")
+require("data/mods/PoraComp/LUA/monster_attacks")
+require("data/mods/PoraComp/LUA/functions")
+require("data/mods/PoraComp/LUA/iuse_actions")
+require("data/mods/PoraComp/LUA/coroutines")
+require("data/mods/PoraComp/LUA/mop_actions")
 
 local MOD = {
   id = "porawep",
