@@ -1,0 +1,17 @@
+[
+  {
+    "id": "drop_pod",
+    "type": "item_action",
+    "name": "Retreive Drop Pod's Contents"
+  },
+  {
+    "id": "tk_izu_connection",
+    "type": "item_action",
+    "name": "Connect to the T.K Izu"
+  },
+  {
+    "id": "tk_izu_close_fire_support",
+    "type": "item_action",
+    "name": "Immediate Close Fire Support from T.K Izu"
+  }
+]

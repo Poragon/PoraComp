@@ -1,0 +1,10 @@
+[
+	{
+		"type": "effect_type",
+		"id": "Security_Key_Logistics"
+	},
+	{
+		"type": "effect_type",
+		"id": "Security_Key_Field_Op"
+	}
+]

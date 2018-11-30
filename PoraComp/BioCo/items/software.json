@@ -62,5 +62,23 @@
         "name": "BioCo Power Storage Bionic Designs",
         "description": "A set of comprehensive blueprints loaded onto a USB which detail the power storage CBMs created by BioCo. While gibberish to you, one of BioCo's assembly machines could read this.",
         "price": 3000
-    }
+    },
+	{
+        "id": "Software_BioCo_Logistics_Department_Register",
+        "copy-from": "software",
+        "type":"GENERIC",
+        "name": "BioCo Logistics Department Register",
+        "description": "A USB containing a one use security key. Using it with a device that can contact T.K Izu will grant you permenant extended access to the stations' functions.",
+        "price": 3000,
+		"flags": [ "TK_Izu_Security_Key", "Security_Key_Logistics" ]
+    },
+	{
+        "id": "Software_BioCo_BioCo_Field_Op_Register",
+        "copy-from": "software",
+        "type":"GENERIC",
+        "name": "BioCo Field Op Register",
+        "description": "A USB containing a one use security key. Using it with a device that can contact T.K Izu will grant you permenant extended access to the stations' functions.",
+        "price": 3000,
+		"flags": [ "TK_Izu_Security_Key", "Security_Key_Field_Op" ]
+    }	
 ]
