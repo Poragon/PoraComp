@@ -45,7 +45,6 @@ function drop_pod_iuse(item) -- decodes the vars stuffed in drop pods to retriev
 	game.add_msg("<color_green>You twist the realese valve and the pod falls apart, revealing the contents!</color>")
 	item:clear_vars()
 	player:i_rem(item)
-	player:i_add(item("BioCo_10L_Drop_Pod_Scrap", 1))
 end
 
 function tk_izu_connection_iuse()

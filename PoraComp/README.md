@@ -26,6 +26,8 @@ MutEx Changes
 	Buffed bloated zed
 		- Now can knock down/stun on explosion
 	Moved around effects for better organization
+	Added glowing smoker
+		- Smoker but emits radiation fields c:
 	
 BioCo Changes
 

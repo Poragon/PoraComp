@@ -17,7 +17,7 @@ items_to_load = 0
 -- security clearences; "BioCo_Logistics_Department", "BioCo_Research_Lead", "BioCo_Field_Op"
 field_agent_supply_list = {}
 field_agent_supply_list[1] = { [ 0 ] = "no_container", [ 1 ] = "MagTech_Revolving_Rifle_6kJ", [ 2 ] = 1, [ 3 ] = 1500000, [ 4 ] = "Security_Key_Field_Op" }
-field_agent_supply_list[2] = { [ 0 ] = "no_container", [ 1 ] = "XE037_Emergency_Injection", [ 2 ] = 5, [ 3 ] = 90000, [ 4 ] = "Security_Key_Field_Op" }
+field_agent_supply_list[2] = { [ 0 ] = "no_container", [ 1 ] = "XE037_Emergency_Injection", [ 2 ] = 5, [ 3 ] = 900000, [ 4 ] = "Security_Key_Field_Op" }
 field_agent_supply_list[3] = { [ 0 ] = "no_container", [ 1 ] = "T.K_Izu_Close_Fire_Support_Beacon", [ 2 ] = 1, [ 3 ] = 900000, [ 4 ] = "Security_Key_Field_Op" }
 
 common_supply_list = {}

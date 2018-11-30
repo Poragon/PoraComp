@@ -2,6 +2,7 @@
 	{
         "id": "Software_BioCo_Civilian_Designs",
         "copy-from": "software",
+		"looks-like": "usb_drive",
         "type":"GENERIC",
         "name": "BioCo Civilian Bionic Designs",
         "description": "A set of comprehensive blueprints loaded onto a USB which detail the civilian CBMs created by BioCo. While gibberish to you, one of BioCo's assembly machines could read this.",
@@ -10,6 +11,7 @@
 	{
         "id": "Software_BioCo_Military_Designs",
         "copy-from": "software",
+		"looks-like": "usb_drive",
         "type":"GENERIC",
         "name": "BioCo Military Bionic Designs",
         "description": "A set of comprehensive blueprints loaded onto a USB which detail the Military CBMs created by BioCo. While gibberish to you, one of BioCo's assembly machines could read this.",
@@ -18,6 +20,7 @@
 	{
         "id": "Software_BioCo_Experimental_Designs",
         "copy-from": "software",
+		"looks-like": "usb_drive",
         "type":"GENERIC",
         "name": "BioCo Experimental Bionic Designs",
         "description": "A set of comprehensive blueprints loaded onto a USB which detail the cutting-edge experimental CBMs created by BioCo. While gibberish to you, one of BioCo's assembly machines could read this.",
@@ -26,6 +29,7 @@
 	{
         "id": "Software_BioCo_Medical_Designs",
         "copy-from": "software",
+		"looks-like": "usb_drive",
         "type":"GENERIC",
         "name": "BioCo Medical Bionic Designs",
         "description": "A set of comprehensive blueprints loaded onto a USB which detail the medical CBMs created by BioCo. While gibberish to you, one of BioCo's assembly machines could read this.",
@@ -34,6 +38,7 @@
 	{
         "id": "Software_BioCo_Medical_Chemical_Designs",
         "copy-from": "software",
+		"looks-like": "usb_drive",
         "type":"GENERIC",
         "name": "BioCo Medical Chemical Designs",
         "description": "A set of comprehensive blueprints loaded onto a USB which detail the medical supplies created by BioCo. While gibberish to you, one of BioCo's Chemical Engines could read this.",
@@ -42,6 +47,7 @@
 	{
         "id": "Software_BioCo_AutoDoc_Designs",
         "copy-from": "software",
+		"looks-like": "usb_drive",
         "type":"GENERIC",
         "name": "BioCo AutoDoc Designs",
         "description": "A set of comprehensive blueprints loaded onto a USB which detail the AutoDocs created by BioCo. While gibberish to you, one of BioCo's assembly machines could read this.",
@@ -50,6 +56,7 @@
 	{
         "id": "Software_BioCo_Weaponry_Designs",
         "copy-from": "software",
+		"looks-like": "usb_drive",
         "type":"GENERIC",
         "name": "BioCo Weaponry Designs",
         "description": "A set of comprehensive blueprints loaded onto a USB which detail more common weaponry created by MagTec, a division of BioCo. While gibberish to you, one of BioCo's assembly machines could read this.",
@@ -58,6 +65,7 @@
 	{
         "id": "Software_BioCo_Power_Storage_Designs",
         "copy-from": "software",
+		"looks-like": "usb_drive",
         "type":"GENERIC",
         "name": "BioCo Power Storage Bionic Designs",
         "description": "A set of comprehensive blueprints loaded onto a USB which detail the power storage CBMs created by BioCo. While gibberish to you, one of BioCo's assembly machines could read this.",
@@ -67,16 +75,16 @@
         "id": "Software_BioCo_Logistics_Department_Register",
         "copy-from": "software",
         "type":"GENERIC",
-        "name": "BioCo Logistics Department Register",
+        "name": "BioCo Logistics Department Registery Key",
         "description": "A USB containing a one use security key. Using it with a device that can contact T.K Izu will grant you permenant extended access to the stations' functions.",
         "price": 3000,
 		"flags": [ "TK_Izu_Security_Key", "Security_Key_Logistics" ]
     },
 	{
-        "id": "Software_BioCo_BioCo_Field_Op_Register",
+        "id": "Software_BioCo_Field_Op_Register",
         "copy-from": "software",
         "type":"GENERIC",
-        "name": "BioCo Field Op Register",
+        "name": "BioCo Field Op Registery Key",
         "description": "A USB containing a one use security key. Using it with a device that can contact T.K Izu will grant you permenant extended access to the stations' functions.",
         "price": 3000,
 		"flags": [ "TK_Izu_Security_Key", "Security_Key_Field_Op" ]

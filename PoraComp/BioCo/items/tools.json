@@ -94,6 +94,7 @@
 {
     "id": "T.K_Izu_Laptop",
 	"copy-from": "control_laptop",
+	"looks-like": "control_laptop",
     "type": "TOOL",
     "name": "T.K Izu Laptop",
     "description": "A modified laptop, with a BioCo transmition chip installed. These modifications allow it to communicate with BioCo's most important pre-cataclysm asset, the T.K Izu Space Station.",

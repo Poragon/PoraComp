@@ -5,7 +5,9 @@
 	"monsters" : [
 		{ "monster" : "mon_MutEx_zombie_brute", "freq" : 5, "cost_multiplier": 20, "pack_size": [1,2] },
 		{ "monster" : "mon_MutEx_zombie_hollow", "freq" : 5, "cost_multiplier": 50, "pack_size": [1,2] },
-		{ "monster" : "mon_MutEx_zombie_hulk", "freq" : 1, "cost_multiplier": 50 }
+		{ "monster" : "mon_MutEx_zombie_hulk", "freq" : 1, "cost_multiplier": 50 },
+		{ "monster" : "mon_MutEx_zombie_acidbag", "freq" : 5, "cost_multiplier": 5},
+        { "monster" : "mon_MutEx_zombie_acidbag", "freq" : 2, "cost_multiplier": 25, "pack_size": [3,5]}
 	]
 },
 {
