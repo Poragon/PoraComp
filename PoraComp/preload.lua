@@ -8,7 +8,7 @@ require("data/mods/PoraComp/LUA/functions")
 require("data/mods/PoraComp/LUA/iuse_actions")
 require("data/mods/PoraComp/LUA/coroutines")
 require("data/mods/PoraComp/LUA/mop_actions")
-
+require("data/mods/PoraComp/LUA/tk_izu")
 
 local MOD = {
   id = "porawep",
