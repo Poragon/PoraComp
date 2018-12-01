@@ -1,0 +1,13 @@
+Welcome to PoraComp! Setup should be easy and clean. 
+
+Provided you downloaded this from github you should currently have a zip file named either PoraComp-x.x.x or PoraComp-master, with a folder inside name the exact thing.
+
+Inside of the PoraComp-x.x.x/PoraComp-master folder there will be a PoraComp folder. It is this we want to put into the mod directory!
+Provided you've done these steps correctly, the directory to the mod should be the following;
+...data\mods\PoraComp
+
+If you've followed the steps and all matches up, you're good to go! If you have any more questions, refer to the FAQ in hopes the answer is there, or contact myself at either poragonplays@gmail.com, the cdda discord, or the discourse site!
+
+Some helpful links;
+Changelog: https://github.com/Poragon/PoraComp/blob/master/PoraComp/README.md
+FAQ: https://github.com/Poragon/PoraComp/blob/master/PoraComp/FAQ.md
