@@ -205,5 +205,25 @@
       "PUSH_MON",
       "FILTHY"
     ]
+  },
+  {
+    "id": "mon_MutEx_zombie_acidbag",
+    "type": "MONSTER",
+    "name": "Bloated Acid Zombie",
+	"description": "A swollen zombie, skin torn at various places with a boiling liquid oozing out of the seams. Despite its ragged apperance, this variety definatly seems more sturdy than others like it.",
+	"copy-from": "mon_zombie_gasbag",
+    "special_attacks": [ [ "ACID_BOOMER", 2 ], [ "scratch", 15 ] ],
+	"death_function": [ "ACID" ],
+	"emit_fields": [ "emit_acid_splash" ]
+  },
+  {
+    "id": "mon_MutEx_zombie_glowing_smoker",
+    "type": "MONSTER",
+    "name": "Glowing Smoker",
+	"description": "A blackened and twisted naked human body, strips of flesh hang from its body, and it emits a constant haze of thick green smoke.",
+	"copy-from": "mon_zombie_smoker",
+    "special_attacks": [ { "type": "bite", "cooldown": 5 }, [ "scratch", 15 ] ],
+	"emit_fields": [ "emit_radiation_stream" ],
+	"death_function": [ "NORMAL" ]
   }
 ]

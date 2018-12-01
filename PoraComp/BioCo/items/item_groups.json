@@ -8,7 +8,8 @@
 		{ "item": "Software_BioCo_Military_Designs", "prob": 3 },
 		{ "item": "Software_BioCo_Medical_Designs", "prob": 5 },
 		{ "item": "Software_BioCo_Medical_Chemical_Designs", "prob": 5 },
-		{ "item": "BioCo_Chemical_Reference", "prob": 5 }
+		{ "item": "BioCo_Chemical_Reference", "prob": 5 },
+		{ "item": "Software_BioCo_Logistics_Department_Register", "prob": 5 }
 	]
   },
   { 
@@ -17,6 +18,8 @@
 	"subtype": "collection",
     "items":[
 		{ "item": "Software_BioCo_Experimental_Designs", "prob": 1 },
+		{ "item": "Software_BioCo_Logistics_Department_Register", "prob": 5 },
+		{ "item": "Software_BioCo_Field_Op_Register", "prob": 5 },
 		{ "item": "Software_BioCo_AutoDoc_Designs", "prob": 5 },
 		{ "item": "Software_BioCo_Weaponry_Designs", "prob": 5 }
 	]

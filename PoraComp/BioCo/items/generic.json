@@ -15,5 +15,20 @@
     "cutting": 4,
     "to_hit": -3,
     "flags": [ "TRADER_AVOID" ]
+  },
+  {
+    "id": "BioCo_10L_Drop_Pod_Scrap",
+    "type": "GENERIC",
+    "category": "other",
+    "name": "10L Drop Pod Scrap",
+    "description": "The left over sheets of metal and mechanic bits from a BioCo Drop Pod. Not much use, but can be taken apart for some scrap and electronics.",
+    "weight": 1000,
+    "volume": 10,
+    "price": 1000,
+    "to_hit": -1,
+    "bashing": 1,
+    "material": "steel",
+    "symbol": ")",
+    "color": "dark_gray"
   }
 ]

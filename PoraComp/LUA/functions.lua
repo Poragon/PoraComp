@@ -1,5 +1,5 @@
-function creature_distance_from_player(Creature)
-	local mpoint = Creature:pos() 
+function creature_distance_from_player(target)
+	local mpoint = target:pos() 
 	local ppoint = player:pos()
 	local distance_to_player = math.sqrt( ((mpoint.x - ppoint.x)^2) + ((mpoint.y - ppoint.y)^2) )
 	return distance_to_player
@@ -72,6 +72,35 @@ function monster_attention(monster)
 	local offset = math.random(4) - math.random(7)
 	local point = tripoint(point_base.x + offset, point_base.y + offset, point_base.z)
 	monster:set_dest(point)
+end
+
+function solar_reload()
+	for x = 0, 100 do --Will break once 100+ items in inventory
+		local item = search_inventory(x)
+		if item:has_flag("SOLAR_CHARGE_5") == true then --.json flag to help keep things in check
+			if item:has_var("solar_charges") == true then
+				local solar_charges_string = item:get_var("solar_charges", 0)
+				local solar_charges_int = tonumber(solar_charges_string)
+				if solar_charges_int >= 5 then --Check here determines # of turns till charge gained
+					item:set_var("solar_charges", 0)
+					local ammo_count = item.charges
+					if ammo_count  < item:ammo_capacity() then
+						item.charges = ammo_count + 1
+					end
+				else
+				base = item:get_var("solar_charges", 0)
+				item:set_var("solar_charges", base + 1)
+				end
+			else
+				item:set_var("solar_charges", 1)
+			end
+		end
+	end
+end
+
+function search_inventory(int)
+	local item = player:i_at(int)
+	return item
 end
 
 function zygote_growth()

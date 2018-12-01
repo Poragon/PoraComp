@@ -36,6 +36,64 @@ function echo_random_attack(monster)
 	end
 end
 
+function boomer_upgraded_attack(monster)
+	local mon = monster
+	if creature_distance_from_player(mon) < 3
+	and monster:sees(player) == true then
+		monster:set_moves(-100)
+		local center = monster:pos()
+		local off = 1
+		for x = -off, off do
+			for y = -off, off do
+				local z = 0 
+				if math.abs(x) == off or math.abs(y) == off then
+					local point = tripoint(center.x + x, center.y + y, center.z + z) 
+					local chance = math.random(3)
+					if chance ~= 1 then
+						local dur = math.random(15)
+						local power = math.random(2)
+						map:add_field(point, "fd_toxic_gas", power, TURNS(dur))
+					end
+				end
+			end
+		end
+		if math.random(3) > 2 then
+			player:add_effect(efftype_id("downed"), TURNS(3))
+		else
+			player:add_effect(efftype_id("stunned"), TURNS(3))
+		end
+		monster:die(player)
+		game.add_msg("The "..monster:get_name().." explodes into a haze!")
+	end
+end	
+
+function acid_boomer_attack(monster)
+	local mon = monster
+	if creature_distance_from_player(mon) < 3
+	and monster:sees(player) == true then
+		monster:set_moves(-100)
+		local center = monster:pos()
+		for off = 1, 2 do
+			for x = -off, off do
+				for y = -off, off do
+					local z = 0 
+					if math.abs(x) == off or math.abs(y) == off then
+						local point = tripoint(center.x + x, center.y + y, center.z + z) 
+						local chance = math.random(3)
+						if chance == 1 then
+							local dur = math.random(10, 30)
+							local power = math.random(2)
+							map:add_field(point, "fd_acid", power, TURNS(dur))
+						end
+					end
+				end
+			end
+		end
+		monster:die(player)
+		game.add_msg("The "..monster:get_name().." explodes, flinging acid everywhere!")
+	end
+end	
+
 function update_attack(monster)
 	monster_update_tick(monsters_around())
 	parasite_sense_danger(monsters_around())
@@ -44,3 +102,5 @@ end
 game.register_monattack("BESERK_CHARGE", beserk_charge_attack)
 game.register_monattack("ECHO_RANDOM", echo_random_attack)
 game.register_monattack("UPDATE", update_attack)
+game.register_monattack("BOOMER_UPGRADED", boomer_upgraded_attack )
+game.register_monattack("ACID_BOOMER", acid_boomer_attack )

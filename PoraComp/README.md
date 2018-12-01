@@ -6,6 +6,40 @@ Ideas, suggestions and other such mentions are more than welcome and I can be re
 Detailed Changelogs;
 
 
+# Version 1.5.6
+
+Total Changes
+
+	More LUA
+		- T.K Izu, now operational
+		- Solar charging functionality
+		
+PoraComp
+
+	Buffed mop
+		- Can now mop up liquids into a container! Still dirty liquids though.
+
+MutEx Changes
+
+	Added acidic boomer
+		- Boomer, but acid. Thank you discord server for all the *wonderful* ideas :ilu:
+	Buffed bloated zed
+		- Now can knock down/stun on explosion
+	Moved around effects for better organization
+	Added glowing smoker
+		- Smoker but emits radiation fields c:
+	
+BioCo Changes
+
+	T.K Izu space station, now responding
+		- Added T.K Izu laptop, can communicate with T.K Izu
+		- Added commissary units to T.K Izu
+		- Added Close Fire Support to T.K Izu
+	Added BioCo 10L Drop Pods
+	Added BioCo Atmospheric Splash Packs
+	Added various security clearance cards
+	Removed recipie to craft MagTec Rifle
+
 # Version 1.5.5
 
 Total Changes

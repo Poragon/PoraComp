@@ -90,5 +90,26 @@
     "symbol": ";",
     "color": "dark_gray",
     "flags": [ "DURABLE_MELEE" ]
-}
+},
+{
+    "id": "T.K_Izu_Laptop",
+	"copy-from": "control_laptop",
+	"looks-like": "control_laptop",
+    "type": "TOOL",
+    "name": "T.K Izu Laptop",
+    "description": "A modified laptop, with a BioCo transmition chip installed. These modifications allow it to communicate with BioCo's most important pre-cataclysm asset, the T.K Izu Space Station.",
+    "use_action": "tk_izu_connection",
+    "flags": [ "NO_UNLOAD", "RECHARGE" ]
+  },
+  {
+    "id": "T.K_Izu_Close_Fire_Support_Beacon",
+    "type": "TOOL",
+    "name": "T.K Izu Close Fire Support Beacon",
+    "description": "Resembling a sort of high-tech flare, this small metal rod is tuned in to T.K Izu's weaponry systems. So long as the station is in a suitable place in orbit, a close fire support mission can be requested. For security reasons, the hardware on it is designed to fail after a single use.",
+    "weight": 128,
+    "volume": 1,
+    "price": 2000000,
+	"symbol": "i",
+	"use_action": "tk_izu_close_fire_support"
+  }
 ]

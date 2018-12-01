@@ -29,6 +29,16 @@
             "id": "mon_MutEx_zombie_echo",
             "fg": 4,
 			"bg": 0
+            },
+			{
+            "id": "mon_MutEx_zombie_acidbag",
+            "fg": 5,
+			"bg": 0
+            },
+			{
+            "id": "mon_MutEx_zombie_glowing_smoker",
+            "fg": 6,
+			"bg": 0
             }
         ]
         },
@@ -101,6 +111,37 @@
 			{
             "id": "broken_BioCo_ScavBot",
             "fg": 208,
+			"bg": 0
+            },
+			{
+            "id": "T.K_Izu_Close_Fire_Support_Beacon",
+            "fg": 212,
+			"bg": 0
+            },
+			{
+            "id": "BioCo_10L_Drop_Pod",
+            "fg": 213,
+			"bg": 0
+            },
+			{
+            "id": "BioCo_Atmospheric_Splash_Pack",
+            "fg": 214,
+			"bg": 0
+            },
+			{
+            "id": [ 
+				"Software_BioCo_Civilian_Designs", 
+				"Software_BioCo_Military_Designs", 
+				"Software_BioCo_Experimental_Designs", 
+				"Software_BioCo_Medical_Designs", 
+				"Software_BioCo_Medical_Chemical_Designs", 
+				"Software_BioCo_AutoDoc_Designs", 
+				"Software_BioCo_Weaponry_Designs", 
+				"Software_BioCo_Power_Storage_Designs", 
+				"Software_BioCo_Logistics_Department_Register",
+				"Software_BioCo_Field_Op_Register"
+			],
+            "fg": 215,
 			"bg": 0
             }
         ]
