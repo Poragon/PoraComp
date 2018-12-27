@@ -1,0 +1,78 @@
+[
+	{
+        "type": "effect_type",
+        "id": "fat_reserves",
+        "rating": "bad",
+        "max_intensity": 20000
+    },
+	{
+        "type": "effect_type",
+        "id": "extremely_underweight",
+		"name": ["Extremely Underweight"],
+        "desc": ["An extended fast has left you without an ounce of fat on your bones."],
+        "rating": "bad",
+        "base_mods": {
+            "h_mod_chance": [600],
+			"h_mod_min": [-10],
+			"healing_rate": [0.5]
+        },
+        "show_in_info": true
+    },
+	{
+        "type": "effect_type",
+        "id": "underweight",
+		"name": ["Underweight"],
+        "desc": ["You're thinning out from malnurishment, eat some food!"],
+        "rating": "bad",
+        "base_mods": {
+            "h_mod_chance": [600],
+			"h_mod_min": [-2],
+			"healing_rate": [0.8]
+        },
+        "show_in_info": true
+    },
+	{
+        "type": "effect_type",
+        "id": "ideal_weight",
+        "rating": "good"
+    },
+	{
+        "type": "effect_type",
+        "id": "overweight",
+		"name": ["Overweight"],
+        "desc": ["Regular bouts of snacking have put some weight on you."],
+        "rating": "bad",
+        "base_mods": {
+            "h_mod_chance": [600],
+			"h_mod_min": [-5],
+			"speed_mod": [-5]
+        },
+        "show_in_info": true
+    },
+	{
+        "type": "effect_type",
+        "id": "extremely_overweight",
+		"name": ["Extremely Overweight"],
+        "desc": ["While finding enough food to eat is good in the cataclysm, this level of over eating cannot be healthy."],
+        "rating": "bad",
+        "base_mods": {
+            "h_mod_chance": [600],
+			"h_mod_min": [-10],
+			"speed_mod": [-15]
+        },
+        "show_in_info": true
+    },
+	{
+        "type": "effect_type",
+        "id": "obesity",
+		"name": ["Obesity"],
+        "desc": ["Moving is difficult, breathing require labour. Maybe temperance really is a virtue."],
+        "rating": "bad",
+        "base_mods": {
+            "h_mod_chance": [500],
+			"h_mod_min": [-20],
+			"speed_mod": [-30]
+        },
+        "show_in_info": true
+    }
+]

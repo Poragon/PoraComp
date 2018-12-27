@@ -5,6 +5,14 @@ Ideas, suggestions and other such mentions are more than welcome and I can be re
 
 Detailed Changelogs;
 
+# Version 1.5.7
+
+Total Changes
+	
+	More LUA
+		- Added Lipids mod, store those excess calories in fat and wave goodbye to three day starvation!
+		- Framework for many other, currently not functional, things
+	Various changes of structure to hopefully be more consistent
 
 # Version 1.5.6
 

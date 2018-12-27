@@ -1,3 +1,9 @@
+-- Variables
+
+-- Coroutines
+
+-- Functions
+
 function Zygote_Kit_IV_iuse()
 	if player:has_effect(efftype_id("Fledgling_037")) == false
 	and player:has_effect(efftype_id("PA_037_Zygote")) == false then
@@ -47,7 +53,7 @@ function drop_pod_iuse(item) -- decodes the vars stuffed in drop pods to retriev
 	player:i_rem(item)
 end
 
-function tk_izu_connection_iuse()
+function tk_izu_connection_iuse() -- Opens TK_Izu menu for any item that can connect
 	show_tk_izu_connection_menu()
 end
 
@@ -127,24 +133,9 @@ function tk_izu_close_fire_support_iuse(item)
 
 end
 
-function dynamic_food_iuse(item)
-
-	local nutrition = tonumber(item:get_var("nutrition", 0))
-	local current_hunger = player:get_hunger()
-	local hunger_mod = nutrition * -1
-	if current_hunger + hunger_mod >= -20 then
-		player:mod_stomach_food(nutrition)
-		player:mod_hunger(nutrition * -1)
-		game.add_msg("<color_green>Mmmm... a hearty meal!</color>")
-		player:i_rem(item)
-	else
-		game.add_msg("<color_red>You're so stuff, you couldn't eat another bite!</color>")
-	end
-	
-end
+-- Game Register
 
 game.register_iuse("Zygote_Kit_IV", Zygote_Kit_IV_iuse)
 game.register_iuse("drop_pod", drop_pod_iuse)
 game.register_iuse("tk_izu_connection", tk_izu_connection_iuse)
 game.register_iuse("tk_izu_close_fire_support", tk_izu_close_fire_support_iuse)
-game.register_iuse("Dynamic_Food", dynamic_food_iuse)

@@ -1,0 +1,9 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "Dynamic_Food",
+    "name": "Home Cooked Meal",
+	"copy-from": "Dynamic_Food",
+	"freezing_point": -1000
+  }
+]
