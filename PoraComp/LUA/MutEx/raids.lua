@@ -17,18 +17,16 @@ function raid_roll()
 	if player_age_days >= days_till_raids_start then
 		
 		-- Raids start at 1% chance per day, growing at 1% per failed roll. Multiplied by raid frequency.
-		if (raid_chance * raid_frequency ) >= math.random(100) then
-			
-			-- Rolls for what exactly is gonna be murdering you today
+		if (raid_chance * raid_frequency) >= math.random(100) then
 			local raid_faction_roll = math.random(10)
-			if raid_faction_roll = 10 then
-				local raid_faction = "nether_faction"
-			elseif raid_faction_roll = 9 then
-				local raid_faction = "triffid_faction"
-			elseif raid_faction_roll = 8 then
-				local raid_faction = "robot_faction"
+			if raid_faction_roll == 10 then
+				local raid_faction = ("nether_faction")
+			elseif raid_faction_roll == 9 then
+				local raid_faction = ("triffid_faction")
+			elseif raid_faction_roll == 8 then
+				local raid_faction = ("robot_faction")
 			else
-				local raid_faction = "zombie_faction"
+				local raid_faction = ("zombie_faction")
 			end
 		raid_calculation(raid_faction, player_age_days)
 		else

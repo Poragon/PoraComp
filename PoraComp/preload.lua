@@ -1,13 +1,6 @@
 -- Options
 
--- Lipids Options
-lipids_mod_enabled = true
-
--- BioCo Options
-bioco_mod_enabled = true
-
 -- MutEx Options
-mutex_mod_enabled = true
 days_till_raids_start = 31
 raid_difficulty = 1 -- Higher humber means harder raids
 raid_frequency = 1 -- Higher number means more frequent raids
@@ -60,15 +53,13 @@ MOD.on_turn_passed = function()
 	end
 	
 	-- BioCo shared on time calls
-	if bioco_mod_enabled = true then
-		para_chatter = para_chatter + 1
-		if drop_pod_in_transit == true then
-			coroutine.resume(co_drop_pod_landing)
-		end
-		if close_fire_barrage_incoming == true then
-			coroutine.resume(co_tk_izu_close_fire_support)
-			game.add_msg("<color_red>IMMEDIATE BARRAGE INCOMING</color>")
-		end
+	para_chatter = para_chatter + 1
+	if drop_pod_in_transit == true then
+		coroutine.resume(co_drop_pod_landing)
+	end
+	if close_fire_barrage_incoming == true then
+		coroutine.resume(co_tk_izu_close_fire_support)
+		game.add_msg("<color_red>IMMEDIATE BARRAGE INCOMING</color>")
 	end
 
 end
@@ -76,41 +67,26 @@ end
 MOD.on_minute_passed = function()
 
 	-- Lipids shared on time calls
-	if lipids_mod_enabled = true then
-		fat_reserve_process()
-	end
+	fat_reserve_process()
 
 end
 
 MOD.on_day_passed = function()
 	
 	-- BioCo shared on time calls
-	if bioco_mod_enabled == true then
-		zygote_growth()
-	end
+	zygote_growth()
+
 	
 	-- MutEx shared on time calls
-	if mutex_mod_enabled = true then
-		raid_roll()
-	end
-	
-	-- DirtyCata shared on time calls
-	-- disease_check()
+	raid_roll()
 
 end
 
 MOD.on_savegame_loaded = function()
 
 	-- Lipids on load calls
-	if lipids_mod_enabled = true then
-		if player:has_effect(efftype_id("fat_reserves")) == false then
-			player:add_effect(efftype_id("fat_reserves"), TURNS(1), "bp_torso", true, 10000)
-		end
+	if player:has_effect(efftype_id("fat_reserves")) == false then
+		player:add_effect(efftype_id("fat_reserves"), TURNS(1), "bp_torso", true, 10000)
 	end
-	
-	-- DirtyCata on load calls
-	-- if player:has_effect(efftype_id("hygiene")) == false then
-	--	player:add_effect(efftype_id("hygiene"), TURNS(1), "bp_torso", true, 1)
-	-- end
 
 end
