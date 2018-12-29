@@ -1,9 +1,10 @@
 -- Options
 
 -- MutEx Options
-days_till_raids_start = 31
-raid_difficulty = 1 -- Higher humber means harder raids
+days_till_raids_start = 31 -- Raids will not occur until this number of days have passed since mod install
+raid_difficulty_option = 1 -- Higher humber means harder raids
 raid_frequency = 1 -- Higher number means more frequent raids
+raid_group_threshold = 100 -- Threshold for what difficulty allow raids to climb into the next tier of monstergroup
 
 
 --Preload Stuff
@@ -12,6 +13,7 @@ package.path = package.path .. ";/storage/emulated/0/Android/data/com.cleverrave
 package.path = package.path .. ";/storage/sdcard/Android/data/com.cleverraven.cataclysmdda/files/?.lua" --Android (SD Card)
 package.path = package.path .. ";/storage/sdcard0/Android/data/com.cleverraven.cataclysmdda/files/?.lua" --Android (SD Card 0)
 package.path = package.path .. ";/storage/sdcard1/Android/data/com.cleverraven.cataclysmdda/files/?.lua" --Android (SD Card 1)
+package.path = package.path .. ";./?.pora" 
 
 require("data/mods/PoraComp/LUA/MutEx/monster_attacks")
 require("data/mods/PoraComp/LUA/MutEx/raids")
@@ -71,7 +73,17 @@ MOD.on_minute_passed = function()
 
 end
 
+MOD.on_hour_passed = function()
+
+	-- MutEx shared on time calls
+	wait_for_raid_tick()
+
+end
+
 MOD.on_day_passed = function()
+
+	-- Shared on time calls
+	age_one_day()
 	
 	-- BioCo shared on time calls
 	zygote_growth()
@@ -79,6 +91,9 @@ MOD.on_day_passed = function()
 	
 	-- MutEx shared on time calls
 	raid_roll()
+	if player:has_effect(efftype_id("raid_cooldown")) == true then
+		raid_cooldown_tick()
+	end
 
 end
 

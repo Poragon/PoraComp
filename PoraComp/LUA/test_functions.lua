@@ -16,8 +16,27 @@ end
 
 function test_place_spawns(monster_group_id, chance, density)
 	
+	-- Establish some variables
 	local monster_group = mongroup_id(monster_group_id)
 	local center = player:pos()
-	map:place_spawns(monster_group, chance, center.x, center.y, center.x + math.random(5), center.y + math.random(5), density)
+	local direction_roll = math.random(4)
+	
+	-- Choose direction to shove all the zeds
+	if direction_roll == 1 then
+		map:place_spawns(monster_group, chance, center.x + 70, center.y + 70, center.x + 75, center.y + 75, density)
+	elseif direction_roll == 2 then
+		map:place_spawns(monster_group, chance, center.x + 75, center.y -75, center.x + 75, center.y - 75, density)
+	elseif direction_roll == 3 then
+		map:place_spawns(monster_group, chance, center.x - 75, center.y +75, center.x - 75, center.y + 75, density)
+	else
+		map:place_spawns(monster_group, chance, center.x -75, center.y -75, center.x - 75, center.y - 75, density)
+	end
+	
+end
+
+function current_coord()
+
+	local center = player:pos()
+	game.add_msg(center.x.." "..center.y.." "..center.z)
 	
 end
