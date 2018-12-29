@@ -23,6 +23,7 @@
     "armor_bash": 10,
     "armor_cut": 20,
     "vision_night": 5,
+	"harvest": "zombie",
     "special_attacks": [ [ "SMASH", 40 ], [ "GRAB", 10 ], [ "RANGED_PULL", 10 ], ["twisted_brute_swipe", 10] ],
     "death_function": [ "NORMAL" ],
     "flags": [
@@ -64,6 +65,7 @@
     "armor_bash": 20,
     "armor_cut": 25,
     "vision_night": 5,
+	"harvest": "zombie",
     "special_attacks": [ [ "SMASH", 30 ], [ "GRAB", 10 ], ["twisted_hulk_swipe", 10], ["twisted_hulk_stab", 10 ] ],
     "death_function": [ "NORMAL" ],
     "flags": [
@@ -109,6 +111,7 @@
     "armor_stab": 0,
     "vision_day": 30,
     "vision_night": 10,
+	"harvest": "zombie",
     "special_attacks": [ 
 	[ "STRETCH_ATTACK", 5 ], 
 	[ "twisted_hollow_slash_torso", 4 ], 
@@ -145,6 +148,7 @@
     "armor_cut": 50,
     "vision_day": 7,
     "vision_night": 0,
+	"harvest": "zombie",
     "special_attacks": [ [ "BESERK_CHARGE", 20 ], [ "UPDATE", 0 ] ],
     "death_function": [ "NORMAL" ],
     "flags": [
@@ -189,6 +193,7 @@
     "armor_cut": 30,
 	"vision_day": 20,
     "vision_night": 10,
+	"harvest": "zombie",
     "special_attacks": [ [ "ECHO_RANDOM", 15 ], [ "UPDATE", 0 ] ],
     "death_function": [ "NORMAL" ],
     "flags": [
