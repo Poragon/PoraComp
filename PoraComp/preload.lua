@@ -3,7 +3,7 @@
 -- MutEx Options
 days_till_raids_start = 31 -- Raids will not occur until this number of days have passed since mod install
 raid_difficulty_option = 1 -- Higher humber means harder raids
-raid_frequency = 1 -- Higher number means more frequent raids
+raid_frequency = 10 -- Higher number means more frequent raids
 raid_group_threshold = 100 -- Threshold for what difficulty allow raids to climb into the next tier of monstergroup
 
 
