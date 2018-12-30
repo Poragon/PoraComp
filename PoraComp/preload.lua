@@ -1,12 +1,3 @@
--- Options
-
--- MutEx Options
-days_till_raids_start = 31 -- Raids will not occur until this number of days have passed since mod install
-raid_difficulty_option = 1 -- Higher humber means harder raids
-raid_frequency = 10 -- Higher number means more frequent raids
-raid_group_threshold = 100 -- Threshold for what difficulty allow raids to climb into the next tier of monstergroup
-
-
 --Preload Stuff
 
 package.path = package.path .. ";/storage/emulated/0/Android/data/com.cleverraven.cataclysmdda/files/?.lua" --Android
@@ -15,6 +6,7 @@ package.path = package.path .. ";/storage/sdcard0/Android/data/com.cleverraven.c
 package.path = package.path .. ";/storage/sdcard1/Android/data/com.cleverraven.cataclysmdda/files/?.lua" --Android (SD Card 1)
 package.path = package.path .. ";./?.pora" 
 
+require("data/mods/PoraComp/settings")
 require("data/mods/PoraComp/LUA/MutEx/monster_attacks")
 require("data/mods/PoraComp/LUA/MutEx/raids")
 require("data/mods/PoraComp/LUA/BioCo/iuse_actions")
@@ -93,15 +85,6 @@ MOD.on_day_passed = function()
 	raid_roll()
 	if player:has_effect(efftype_id("raid_cooldown")) == true then
 		raid_cooldown_tick()
-	end
-
-end
-
-MOD.on_savegame_loaded = function()
-
-	-- Lipids on load calls
-	if player:has_effect(efftype_id("fat_reserves")) == false then
-		player:add_effect(efftype_id("fat_reserves"), TURNS(1), "bp_torso", true, 10000)
 	end
 
 end

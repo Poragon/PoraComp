@@ -19,6 +19,11 @@ local obesity = efftype_id("obesity")
 
 function fat_reserve_process()
 
+	-- Check is player has the fat effect, if not set player to default starting fat
+	if player:has_effect(fat_reserves) == false then
+		player:add_effect(fat_reserves, TURNS(1), "bp_torso", true, starting_fat)
+	end
+
 	-- Set up some variables each time called
 	local player_hunger = player:get_hunger()
 	local current_fat = player:get_effect_int(fat_reserves, "bp_torso") 
