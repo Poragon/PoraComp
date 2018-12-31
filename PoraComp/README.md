@@ -5,6 +5,18 @@ Ideas, suggestions and other such mentions are more than welcome and I can be re
 
 Detailed Changelogs;
 
+# Version 1.5.8
+
+MutEx Changes
+
+	Added raids
+		- Time based attacks on the player, scaled in difficulty
+	
+Lipids Changes
+
+	Rebalanced fat use
+		- Added option to set starting fat amount, default is a skinny person
+
 # Version 1.5.7
 
 Total Changes
