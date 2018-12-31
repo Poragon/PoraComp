@@ -63,5 +63,42 @@
 	{
 		"type": "effect_type",
 		"id": "Fledgling_037"
+	},
+	{
+		"type": "effect_type",
+		"id": "waiting_for_raid",
+		"max_intensity": 20000
+	},
+	{
+		"type": "effect_type",
+		"id": "raid_cooldown",
+		"max_intensity": 20000
+	},
+	{
+		"type": "effect_type",
+		"id": "nether_raid",
+		"max_intensity": 20000
+	},
+	{
+		"type": "effect_type",
+		"id": "triffid_raid",
+		"max_intensity": 20000
+	},
+	{
+		"type": "effect_type",
+		"id": "robot_raid",
+		"max_intensity": 20000
+	},
+	{
+		"type": "effect_type",
+		"id": "zombie_raid",
+		"max_intensity": 20000
+	},
+	{
+		"type": "effect_type",
+		"id": "raid_chance",
+		"rating": "bad",
+        "max_intensity": 20000,
+		"show_in_info": true
 	}
 ]

@@ -1,0 +1,9 @@
+[
+	{
+		"type": "effect_type",
+		"id": "player_age_days",
+		"rating": "bad",
+        "max_intensity": 20000,
+		"show_in_info": true
+	}
+]

@@ -4,8 +4,11 @@ package.path = package.path .. ";/storage/emulated/0/Android/data/com.cleverrave
 package.path = package.path .. ";/storage/sdcard/Android/data/com.cleverraven.cataclysmdda/files/?.lua" --Android (SD Card)
 package.path = package.path .. ";/storage/sdcard0/Android/data/com.cleverraven.cataclysmdda/files/?.lua" --Android (SD Card 0)
 package.path = package.path .. ";/storage/sdcard1/Android/data/com.cleverraven.cataclysmdda/files/?.lua" --Android (SD Card 1)
+package.path = package.path .. ";./?.pora" 
 
-require("data/mods/PoraComp/LUA/BioCo/monster_attacks")
+require("data/mods/PoraComp/settings")
+require("data/mods/PoraComp/LUA/MutEx/monster_attacks")
+require("data/mods/PoraComp/LUA/MutEx/raids")
 require("data/mods/PoraComp/LUA/BioCo/iuse_actions")
 require("data/mods/PoraComp/LUA/BioCo/tk_izu")
 require("data/mods/PoraComp/LUA/BioCo/parasite")
@@ -62,26 +65,26 @@ MOD.on_minute_passed = function()
 
 end
 
-MOD.on_day_passed = function()
-	
-	-- BioCo shared on time calls
-	zygote_growth()
-	
-	-- DirtyCata shared on time calls
-	-- disease_check()
+MOD.on_hour_passed = function()
+
+	-- MutEx shared on time calls
+	wait_for_raid_tick()
 
 end
 
-MOD.on_savegame_loaded = function()
+MOD.on_day_passed = function()
 
-	-- Lipids on load calls
-	if player:has_effect(efftype_id("fat_reserves")) == false then
-		player:add_effect(efftype_id("fat_reserves"), TURNS(1), "bp_torso", true, 10000)
-	end
+	-- Shared on time calls
+	age_one_day()
 	
-	-- DirtyCata on load calls
-	-- if player:has_effect(efftype_id("hygiene")) == false then
-	--	player:add_effect(efftype_id("hygiene"), TURNS(1), "bp_torso", true, 1)
-	-- end
+	-- BioCo shared on time calls
+	zygote_growth()
+
+	
+	-- MutEx shared on time calls
+	raid_roll()
+	if player:has_effect(efftype_id("raid_cooldown")) == true then
+		raid_cooldown_tick()
+	end
 
 end

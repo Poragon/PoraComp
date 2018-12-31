@@ -19,6 +19,11 @@ local obesity = efftype_id("obesity")
 
 function fat_reserve_process()
 
+	-- Check is player has the fat effect, if not set player to default starting fat
+	if player:has_effect(fat_reserves) == false then
+		player:add_effect(fat_reserves, TURNS(1), "bp_torso", true, starting_fat)
+	end
+
 	-- Set up some variables each time called
 	local player_hunger = player:get_hunger()
 	local current_fat = player:get_effect_int(fat_reserves, "bp_torso") 
@@ -27,21 +32,21 @@ function fat_reserve_process()
 	local chance_1of5 = math.random(5)
 	new_fat_value = current_fat
 	
-	-- Compares hunger a minute ago to current hunger. For every hunger value below 20 one point of hunger is converted to one level of fat intensity 33% of the time.
+	-- Compares hunger a minute ago to current hunger. For every hunger value below 15 one point of hunger is converted to one level of fat intensity 33% of the time.
 	if player_hunger_old == nil then
 		player_hunger_old = player_hunger
 		return
-	elseif player_hunger < 20 and
+	elseif player_hunger < 15 and
 	current_fat <= maximum_fat and
 	chance_1of5 == 5 then
 		new_fat_value = current_fat + 1
 		player:set_hunger(player_hunger + 1)
 	end
 	
-	-- Draws from fat reserves when hunger gets above 45 to set it back to 45. 1:1 fat to hunger reduction, so one fat intensity is 9.7 kcal or just about 1.1g
-	if player_hunger > 45 and
+	-- Draws from fat reserves when hunger gets above 75 to set it back to 75. 1:1 fat to hunger reduction, so one fat intensity is 9.7 kcal or just about 1.1g
+	if player_hunger > 75 and
 	current_fat > minimum_fat then
-		local hunger_mod = ( player_hunger - 45 )
+		local hunger_mod = ( player_hunger - 75 )
 		if current_fat > hunger_mod then
 			new_fat_value = ( current_fat - hunger_mod )
 			player:set_hunger( player_hunger - hunger_mod )

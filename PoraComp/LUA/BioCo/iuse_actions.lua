@@ -85,7 +85,7 @@ function tk_izu_close_fire_support_iuse(item)
 		player:i_rem(beacon)
 		game.add_msg("<color_red>The CFS beacon beeps a last high note, then fizzes out</color>")
 		
-		-- Choose 10 points at random from the list
+		-- Choose 13 points at random from the list
 		for n = 1, 13 do
 			active_targets[#active_targets + 1] = targets[math.random(#targets)]
 		end
