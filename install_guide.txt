@@ -8,6 +8,8 @@ Provided you've done these steps correctly, the directory to the mod should be t
 
 Inside the directory there's also a settings.lua file. If you open this up with any text editor you'll find some options chillin' at the top. These have explanations for what each option is and how changing it will effect the game, feel free to edit to your hearts content!
 
+You can also further fine tune things by deleting the mod folders inside the mod directory, (where the modinfo.json file is) when you delete these folders their content will not show up. NoFreeze is probably the most common one to remove, but the others can be removed with no game breaking issues. You'll miss out on some integrated content if MutEx or BioCo are deleted though!
+
 If you've followed the steps and all matches up, you're good to go! If you have any more questions, refer to the FAQ in hopes the answer is there, or contact myself at either poragonplays@gmail.com, the cdda discord, or the discourse site!
 
 Some helpful links;
