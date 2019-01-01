@@ -4,6 +4,7 @@
 	"copy-from": "lsurvivor_armor", 
 	"id": "porawep_survivor_top",
     "type": "ARMOR",
+	"looks-like": "lsurvivor_suit",
     "category": "armor",
     "name": "Survivor Top",
 	"covers": [ "TORSO" ],
