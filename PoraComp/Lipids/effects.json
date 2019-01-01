@@ -13,7 +13,7 @@
         "rating": "bad",
         "base_mods": {
             "h_mod_chance": [600],
-			"h_mod_min": [-10],
+			"h_mod_min": [-0.05],
 			"healing_rate": [0.5]
         },
         "show_in_info": true
@@ -26,7 +26,7 @@
         "rating": "bad",
         "base_mods": {
             "h_mod_chance": [600],
-			"h_mod_min": [-2],
+			"h_mod_min": [-0.01],
 			"healing_rate": [0.8]
         },
         "show_in_info": true
@@ -44,7 +44,7 @@
         "rating": "bad",
         "base_mods": {
             "h_mod_chance": [600],
-			"h_mod_min": [-5],
+			"h_mod_min": [-0.01],
 			"speed_mod": [-5]
         },
         "show_in_info": true
@@ -57,7 +57,7 @@
         "rating": "bad",
         "base_mods": {
             "h_mod_chance": [600],
-			"h_mod_min": [-10],
+			"h_mod_min": [-0.05],
 			"speed_mod": [-15]
         },
         "show_in_info": true
@@ -70,7 +70,7 @@
         "rating": "bad",
         "base_mods": {
             "h_mod_chance": [500],
-			"h_mod_min": [-20],
+			"h_mod_min": [-1],
 			"speed_mod": [-30]
         },
         "show_in_info": true
