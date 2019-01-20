@@ -217,9 +217,9 @@ function raid_time_calculation()
 	-- Establish when these creatures will be coming. Later game characters get less prep time.
 	local player_age_days = player_get_age_days()
 	if player_age_days <= 62 then
-		hours_till_raid = ( math.random(4, 8) * 24  + math.random(8, 18) )
+		hours_till_raid = ( math.random(2, 4) * 24  + math.random(8, 18) )
 	else
-		hours_till_raid = ( math.random(2, 5) * 24 + math.random(3, 20) )
+		hours_till_raid = ( math.random(1, 2) * 24 + math.random(3, 20) )
 	end
 	
 	-- Run wait_for_raid()
