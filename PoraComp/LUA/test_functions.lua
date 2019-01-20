@@ -40,3 +40,14 @@ function current_coord()
 	game.add_msg(center.x.." "..center.y.." "..center.z)
 	
 end
+
+-- Lipids test functions
+function current_fat()
+
+	local fat_reserves = efftype_id("fat_reserves")
+	local current_fat = player:get_effect_int(fat_reserves, "bp_torso") 
+	
+	game.add_msg("Current fat is :"..current_fat)
+	game.add_msg("Current hunger is :"..player:get_hunger())
+	
+end
