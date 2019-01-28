@@ -17,7 +17,7 @@
     "result": "porawep_survivorheavyplating",
     "type": "recipe",
     "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_SUIT",
+    "subcategory": "CSC_ARMOR_TORSO",
     "skill_used": "tailor",
     "difficulty": 7,
     "skills_required": [ "fabrication", 7 ],
@@ -46,22 +46,41 @@
     ]
   },
   {
-    "result": "porawep_survivorsuit",
+    "result": "porawep_survivor_top",
     "type": "recipe",
     "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_SUIT",
+    "subcategory": "CSC_ARMOR_TORSO",
     "skill_used": "tailor",
     "difficulty": 5,
     "skills_required": [ "fabrication", 6 ],
-    "time": 180000,
+    "time": 100000,
     "autolearn": true,
-    "using": [ [ "sewing_standard", 100 ] ],
-    "tools": [ [ [ "welder", 28 ], [ "welder_crude", 42 ], [ "soldering_iron", 42 ], [ "toolset", 42 ] ] ],
+    "using": [ [ "sewing_standard", 50 ] ],
+    "tools": [ [ [ "welder", 14 ], [ "welder_crude", 21 ], [ "soldering_iron", 21 ], [ "toolset", 21 ] ] ],
     "components": [
-      [ [ "rag", 30 ] ],
-      [ [ "nomex", 18 ], [ "nomex_suit", 1 ] ],
-      [ [ "duct_tape", 200 ] ],
-      [ [ "modularvest", 1 ], [ "kevlar_plate", 24 ] ]
+      [ [ "rag", 15 ] ],
+      [ [ "nomex", 9 ], [ "nomex_suit", 1 ] ],
+      [ [ "duct_tape", 100 ] ],
+      [ [ "modularvest", 1 ], [ "kevlar_plate", 12 ] ]
+    ]
+  },
+  {
+    "result": "porawep_survivor_bottoms",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_LEGS",
+    "skill_used": "tailor",
+    "difficulty": 5,
+    "skills_required": [ "fabrication", 6 ],
+    "time": 100000,
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 50 ] ],
+    "tools": [ [ [ "welder", 14 ], [ "welder_crude", 21 ], [ "soldering_iron", 21 ], [ "toolset", 21 ] ] ],
+    "components": [
+      [ [ "rag", 15 ] ],
+      [ [ "nomex", 9 ], [ "nomex_suit", 1 ] ],
+      [ [ "duct_tape", 100 ] ],
+      [ [ "modularvest", 1 ], [ "kevlar_plate", 12 ] ]
     ]
   },
   {
@@ -137,22 +156,58 @@
     ]
   },
   {
-    "result": "porawep_survivorplating",
+    "result": "porawep_survivor_chestplate",
     "type": "recipe",
     "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_SUIT",
+    "subcategory": "CSC_ARMOR_TORSO",
     "skill_used": "tailor",
     "difficulty": 6,
     "skills_required": [ "fabrication", 6 ],
-    "time": 240000,
+    "time": 100000,
     "autolearn": true,
-    "using": [ [ "sewing_standard", 150 ] ],
+    "using": [ [ "sewing_standard", 50 ] ],
     "tools": [ [ [ "welder", 28 ], [ "welder_crude", 42 ], [ "soldering_iron", 42 ], [ "toolset", 42 ] ] ],
     "components": [
-      [ [ "leather", 20 ], [ "tanned_hide", 4 ] ],
+      [ [ "leather", 10 ], [ "tanned_hide", 1 ] ],
       [ [ "chestrig", 1 ] ],
-      [ [ "duct_tape", 300 ] ],
-      [ [ "kevlar_plate", 4 ] ]
+      [ [ "duct_tape", 100 ] ],
+      [ [ "modularvest", 1 ], [ "kevlar_plate", 12 ] ]
+    ]
+  },
+  {
+    "result": "porawep_survivor_armguards",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_ARMS",
+    "skill_used": "tailor",
+    "difficulty": 6,
+    "skills_required": [ "fabrication", 6 ],
+    "time": 100000,
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 50 ] ],
+    "tools": [ [ [ "welder", 28 ], [ "welder_crude", 42 ], [ "soldering_iron", 42 ], [ "toolset", 42 ] ] ],
+    "components": [
+      [ [ "leather", 10 ], [ "tanned_hide", 1 ] ],
+      [ [ "duct_tape", 100 ] ],
+      [ [ "modularvest", 1 ], [ "kevlar_plate", 12 ] ]
+    ]
+  },
+  {
+    "result": "porawep_survivor_legguards",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_LEGS",
+    "skill_used": "tailor",
+    "difficulty": 6,
+    "skills_required": [ "fabrication", 6 ],
+    "time": 100000,
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 50 ] ],
+    "tools": [ [ [ "welder", 28 ], [ "welder_crude", 42 ], [ "soldering_iron", 42 ], [ "toolset", 42 ] ] ],
+    "components": [
+      [ [ "leather", 10 ], [ "tanned_hide", 1 ] ],
+      [ [ "duct_tape", 100 ] ],
+      [ [ "modularvest", 1 ], [ "kevlar_plate", 12 ] ]
     ]
   },
   {
