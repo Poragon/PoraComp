@@ -33,7 +33,7 @@ function fat_reserve_process()
 	local metabolic_rate = player:metabolic_rate()
 	local new_fat_value = current_fat
 	
-	-- Compares hunger a minute ago to current hunger. For every hunger value below 15 one point of hunger is converted to one level of fat intensity 10% of the time. Amount converted and chance are modified by metabolic rate.
+	-- When hunger value below is 15 one point of hunger is converted to one level of fat intensity 10% of the time. Amount converted and chance are modified by metabolic rate.
 	
 	if player_hunger < 15 and
 	current_fat <= maximum_fat then
