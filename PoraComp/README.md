@@ -5,6 +5,27 @@ Ideas, suggestions and other such mentions are more than welcome and I can be re
 
 Detailed Changelogs;
 
+# Version 1.5.10
+
+PoraComp Changes
+
+	Seperated Survivour Suit into top and bottom.
+	Seperated Survivour Plating into arms, legs, and chestplate.
+	Heavy Survivour Plating made into chestplate.
+	Nerfed Survivour Plating Chestplate
+	
+Lipids Changes
+
+	Adjusted starting fat option default to lower levels
+	Nerfed the horror that was being under/overweight
+	Changed how fat works, no longer prevent hunger from going below a certain point. Now has a chance to reduce hunger based on current hunger and metabolic rate.
+	Changed chance to and amount of fat stored per turn to be effected by metabolic rate
+	
+MutEx Changes
+
+	Lowered waiting time for raids significantly
+	Nerfed speedy twisted zeds a bit; even at frequency one too prolific in base spawn pool ;-;
+
 # Version 1.5.8
 
 MutEx Changes
