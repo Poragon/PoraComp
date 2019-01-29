@@ -32,6 +32,10 @@ Q: I can't freeze fod anymore with my minifreezer?
 
 A: Due to the lower of freezing temperatures, freezing items is no longer possible even when intended. Cooling items will still slow rot though!
 
+Q: Can I remove No-Freeze?
+
+A: Absolutely and I honestly advise it. Just delete the No-Freeze folder and bam; ice returns.
+
 # BioCo FAQ
 
 Q: What's this TK Izu thing?
