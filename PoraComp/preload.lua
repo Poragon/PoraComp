@@ -30,7 +30,6 @@ local MOD = {
 
 mods[MOD.id] = MOD
 DEBUG = false
-para_chatter = 0
 drop_pod_in_transit = false
 close_fire_barrage_incoming = false
 
@@ -47,7 +46,6 @@ MOD.on_turn_passed = function()
 	end
 	
 	-- BioCo shared on time calls
-	para_chatter = para_chatter + 1
 	if drop_pod_in_transit == true then
 		coroutine.resume(co_drop_pod_landing)
 	end
@@ -61,7 +59,11 @@ end
 MOD.on_minute_passed = function()
 
 	-- Lipids shared on time calls
-	fat_reserve_process()
+	if fat_system == true then
+		fat_reserve_process()
+	else
+		weight_effects()
+	end
 
 end
 

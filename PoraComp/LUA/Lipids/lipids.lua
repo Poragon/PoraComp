@@ -60,10 +60,15 @@ function fat_reserve_process()
 		end	
 	end
 	
-	-- Updates fat value
+	-- Updates fat value, runs weight_effects to check for weight effect changes
 	player:add_effect(fat_reserves, TURNS(1), "bp_torso", true, new_fat_value)
 	
-	-- Updates current_fat, removes existing fat effects, applies effects based upon fat count 
+
+end
+
+function weight_effects()
+
+	-- Removes any prexisting fat conditions if they exist
 	if player:has_effect(extremely_underweight) == true then
 		player:remove_effect(extremely_underweight)
 	elseif player:has_effect(underweight) == true then
@@ -78,22 +83,28 @@ function fat_reserve_process()
 		player:remove_effect(obesity)
 	end
 	
-	if current_fat < 2170 then
-		player:add_effect(extremely_underweight, TURNS(1), "num_bp", true)
-	elseif current_fat >= 2170 and
-	current_fat < 6200 then
-		player:add_effect(underweight, TURNS(1), "num_bp", true)
-	elseif current_fat >= 6200 and
-	current_fat < 10230 then
-		player:add_effect(ideal_weight, TURNS(1), "num_bp", true)
-	elseif current_fat >= 10230 and
-	current_fat < 14260 then
-		player:add_effect(overweight, TURNS(1), "num_bp", true)
-	elseif current_fat >= 14260 and
-	current_fat < 18290 then
-		player:add_effect(extremely_overweight, TURNS(1), "num_bp", true)
-	else
-		player:add_effect(obesity, TURNS(1), "num_bp", true)
+	-- Checks to ensure that the fat system is enabled, if so updates the fat effects
+	if fat_system == true then
+		if current_fat < 2170 then
+			player:add_effect(extremely_underweight, TURNS(1), "num_bp", true)
+		elseif current_fat >= 2170 and
+		current_fat < 6200 then
+			player:add_effect(underweight, TURNS(1), "num_bp", true)
+		elseif current_fat >= 6200 and
+		current_fat < 10230 then
+			player:add_effect(ideal_weight, TURNS(1), "num_bp", true)
+		elseif current_fat >= 10230 and
+		current_fat < 14260 then
+			player:add_effect(overweight, TURNS(1), "num_bp", true)
+		elseif current_fat >= 14260 and
+		current_fat < 18290 then
+			player:add_effect(extremely_overweight, TURNS(1), "num_bp", true)
+		else
+			player:add_effect(obesity, TURNS(1), "num_bp", true)
+		end
 	end
-
+	
 end
+
+
+

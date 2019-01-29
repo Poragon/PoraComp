@@ -7,4 +7,5 @@ raid_frequency = 10 -- Higher number means more frequent raids
 raid_group_threshold = 100 -- Threshold for what difficulty allow raids to climb into the next tier of monstergroup
 
 -- Lipids Options
+fat_system = true -- Changing to false will disable all the lipids functionality. Safe to toggle mid save
 starting_fat = 6500 -- Fat player starts with. Each fat unit is 1.1g/9.7kcal
