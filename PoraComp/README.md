@@ -5,6 +5,18 @@ Ideas, suggestions and other such mentions are more than welcome and I can be re
 
 Detailed Changelogs;
 
+# Version 1.6 (:monihug:)
+
+PoraComp 1.6 has arrived! The v1.6 changelog will add a couple unique entries, but for a full glimpse at what's been aded since v1.5 take a look at all the entries below up to v1.5!
+
+BioCo Changes
+
+	Added Izu Comm Watch, a smartwatch capable of accessing TK Izu, obtainable from labs
+	
+LUA Changes
+
+	Fixed some settings related woes
+
 # Version 1.5.10
 
 PoraComp Changes
@@ -20,7 +32,7 @@ Lipids Changes
 	Nerfed the horror that was being under/overweight
 	Changed how fat works, no longer prevent hunger from going below a certain point. Now has a chance to reduce hunger based on current hunger and metabolic rate.
 	Changed chance to and amount of fat stored per turn to be effected by metabolic rate
-	
+
 MutEx Changes
 
 	Lowered waiting time for raids significantly

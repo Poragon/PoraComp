@@ -1,0 +1,25 @@
+[
+	{
+        "id": "BioCo_Izu_Comm_Watch",
+        "type": "TOOL_ARMOR",
+        "category" : "clothing",
+        "symbol": "[",
+        "color": "dark_gray",
+        "name" : "Izu Comm Watch",
+        "description": "A small battery-powered smartwatch, capable of communicating with the BioCo space station TK Izu.",
+        "price": 60000,
+        "material": ["plastic", "aluminum"],
+        "weight" : 68,
+        "volume": 1,
+        "to_hit" : -1,
+        "max_charges": 20,
+        "initial_charges": 20,
+        "charges_per_use": 1,
+        "ammo": "battery",
+        "use_action": "tk_izu_connection",
+        "covers": [ "HAND_EITHER" ],
+        "coverage": 5,
+        "material_thickness" : 1,
+        "flags": [ "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "WATER_FRIENDLY", "OVERSIZE" ]
+    }
+]
